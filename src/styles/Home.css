@@ -66,6 +66,10 @@
 
   @media (max-width: 1400px) {
 
+    .second-page {
+      height: 100%
+    }
+
     .navigation-links {
       flex-direction: column
     }
@@ -109,7 +113,17 @@
         font-size: 1.5rem; /* Adjust the size of the bouncing arrow */
         bottom: 10px; /* Adjust position */
     }
+
+    .navigation-links a {
+      padding: 0px;
+      height: 70px;
+      width: 90%;
+      margin: 30px auto;
+      display: flex;
+      justify-content: center; /* Centers horizontally */
+      align-items: center; 
   }
+}
   
   .display-flex {
     display: flex;
