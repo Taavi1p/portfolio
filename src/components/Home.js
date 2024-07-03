@@ -4,6 +4,7 @@ import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import { Outlet, Link } from 'react-router-dom'
 import '../styles/Home.css';
 import octocat from '../images/octocat.png';
+import TypingAnimation from "./type"
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <section className="background-image">
         <div className="content">
           <FontAwesomeIcon icon={faArrowDown} className="bounce" />
+          <TypingAnimation/>
         </div>
       </section>
       <section className="second-page">
@@ -18,8 +20,9 @@ function Home() {
             <Link to="/Physics" className="nav-link">PHYSICS</Link>
             <Link to="/Math" className="nav-link">MATH</Link>
             <Link to="/CV" className="nav-link">CODING</Link>
-            <Link to="/CV" className="nav-link">BLOG</Link>
+            <Link to="/Blog" className="nav-link">BLOG</Link>
             <Link to="/CV" className="nav-link">CURRICULUM VITAE</Link>
+            <Link to="/Socials" className="nav-link">SOCIALS</Link>
           </div>
           <div class="octocat">
             <a href="https://github.com/Taavi1p" target="_blank" rel="noopener noreferrer">

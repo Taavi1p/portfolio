@@ -1,7 +1,7 @@
 .background-image {
     position: relative;
     height: 100vh; /* Full viewport height */
-    background-image: url('../images/Taavi.jpg'); /* Update with your image path */
+    background-image: url('../images/Taavi-modified.jpg'); /* Update with your image path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,7 +13,6 @@
   .content {
     text-align: center;
     color: white; /* Ensures text is visible on darker backgrounds */
-    background-color: rgba(0, 0, 0, 0.5); /* Adds a dark translucent overlay to enhance text readability */
     padding: 20px;
     border-radius: 10px;
   }

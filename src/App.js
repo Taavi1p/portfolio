@@ -5,6 +5,8 @@ import CV from "./components/cv";
 import Math from "./components/Math";
 import Physics from "./components/Physics";
 import Home from "./components/Home";
+import Blog from "./components/Blog";
+import Socials from "./components/Socials";
 
 
 
@@ -17,6 +19,8 @@ function App() {
     <Route path="/physics" element={<Physics />} />
     <Route path="/CV" element={<CV />} />
     <Route path="/math" element={<Math />} />
+    <Route path="/Blog" element={<Blog />} />
+    <Route path="/Socials" element={<Socials />} />
   </Routes>
   </Router>
   );

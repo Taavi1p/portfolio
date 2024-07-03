@@ -31,6 +31,9 @@
 
   @media (max-width: 768px) {
     .resume-image {
-      width: 90%
+      width: 90%;
+    }
+    .resume-page {
+      height: 100vh
     }
   }

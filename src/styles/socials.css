@@ -1,0 +1,12 @@
+.socials-page {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .soon-text {
+    color: white;
+    font-size: 50px;
+  }
