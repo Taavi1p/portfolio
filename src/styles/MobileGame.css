@@ -1,0 +1,33 @@
+.mobile-game-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .app-image img {
+    max-width: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .app-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app-details h1 {
+    margin: 0 0 10px 0;
+    color: white
+  }
+  
+  .app-details a {
+    margin: 5px 0;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+  }
+  

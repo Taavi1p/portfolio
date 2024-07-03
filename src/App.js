@@ -7,6 +7,7 @@ import Physics from "./components/Physics";
 import Home from "./components/Home";
 import Blog from "./components/Blog";
 import Socials from "./components/Socials";
+import Coding from "./components/Coding";
 
 
 
@@ -21,6 +22,7 @@ function App() {
     <Route path="/math" element={<Math />} />
     <Route path="/Blog" element={<Blog />} />
     <Route path="/Socials" element={<Socials />} />
+    <Route path="/Coding" element={<Coding />} />
   </Routes>
   </Router>
   );

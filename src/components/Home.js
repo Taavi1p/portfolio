@@ -19,7 +19,7 @@ function Home() {
           <div className="navigation-links">
             <Link to="/Physics" className="nav-link">PHYSICS</Link>
             <Link to="/Math" className="nav-link">MATH</Link>
-            <Link to="/CV" className="nav-link">CODING</Link>
+            <Link to="/Coding" className="nav-link">CODING</Link>
             <Link to="/Blog" className="nav-link">BLOG</Link>
             <Link to="/CV" className="nav-link">CURRICULUM VITAE</Link>
             <Link to="/Socials" className="nav-link">SOCIALS</Link>
