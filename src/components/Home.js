@@ -23,6 +23,8 @@ function Home() {
             <Link to="/Blog" className="nav-link">BLOG</Link>
             <Link to="/CV" className="nav-link">CURRICULUM VITAE</Link>
             <Link to="/Socials" className="nav-link">SOCIALS</Link>
+            <Link to="/Books" className="nav-link">BOOKS</Link>
+            <Link to="/Investing" className="nav-link">Investing</Link>
           </div>
           <div class="octocat">
             <a href="https://github.com/Taavi1p" target="_blank" rel="noopener noreferrer">

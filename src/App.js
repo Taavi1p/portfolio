@@ -8,6 +8,8 @@ import Home from "./components/Home";
 import Blog from "./components/Blog";
 import Socials from "./components/Socials";
 import Coding from "./components/Coding";
+import Books from "./components/Books";
+import Investing from "./components/Investing";
 
 
 
@@ -23,6 +25,8 @@ function App() {
     <Route path="/Blog" element={<Blog />} />
     <Route path="/Socials" element={<Socials />} />
     <Route path="/Coding" element={<Coding />} />
+    <Route path="/Books" element={<Books />} />
+    <Route path="/Investing" element={<Investing />} />
   </Routes>
   </Router>
   );
