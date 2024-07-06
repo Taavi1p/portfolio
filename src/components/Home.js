@@ -24,7 +24,8 @@ function Home() {
             <Link to="/CV" className="nav-link">CURRICULUM VITAE</Link>
             <Link to="/Socials" className="nav-link">SOCIALS</Link>
             <Link to="/Books" className="nav-link">BOOKS</Link>
-            <Link to="/Investing" className="nav-link">Investing</Link>
+            <Link to="/Investing" className="nav-link">INVESTING</Link>
+            <div onClick={() => window.open('https://m.youtube.com/@EvaristeGalois73', '_blank')} className="nav-link">YOUTUBE</div>
           </div>
           <div class="octocat">
             <a href="https://github.com/Taavi1p" target="_blank" rel="noopener noreferrer">
