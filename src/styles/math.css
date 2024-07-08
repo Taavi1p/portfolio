@@ -1,7 +1,23 @@
 .math-page {
+  padding-top: 100px;
     background-color: black;
-    height: 100vh;
+  }
+
+  .content {
+    margin-left:auto;
+    margin-right: auto;
+    border: 10px white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 1000px;
+  }
+
+  .header {
+    font-size: 40px;
+  }
+
+  .galois-pic {
+    width: 100%;
   }
