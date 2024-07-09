@@ -1,7 +1,21 @@
 .books-page {
-    background-color: black;
-    height: 100vh;
+  padding-top: 100px;
+  background-color: black;
+  min-height: 100vh;
+  }
+
+  .books-content {
+    margin-left:auto;
+    margin-right: auto;
+    border: 10px white;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    width: 1000px;
+  }
+
+  .header {
+    font-size: 40px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
   }
