@@ -6,7 +6,7 @@ import MathPost from "./MathPost"
 function Math() {
   return (
     <div className="math-page">
-      <div className='content'>
+      <div className='math-content'>
         <div className='header'>In loving memory of...</div>
         <img src={galoisPic} className='galois-pic'/>
         <MathPost
@@ -17,19 +17,19 @@ function Math() {
       />
       <MathPost
         header="TÜ autumn university math competition"
-        paragraph="The normal TÜ math comepetition format. 6 questions, unforunately no calculus."
+        paragraph="My first time at the competition. I feel like I did decent. Should have dome better on the calculus question"
         pdfUrl="path/to/your/document1.pdf"
         pdfText="exercises"
       />
       <MathPost
         header="Estonian High School finishing exams"
-        paragraph="The normal TÜ math comepetition format. 6 questions, unforunately no calculus."
+        paragraph="I got 92/100. I feel like I did very well, just had a annoying drawing error on the last exercise and lost 8 points because of that."
         pdfUrl="path/to/your/document1.pdf"
         pdfText="exercises"
       />
       <MathPost
         header="Estonian high school math competetion"
-        paragraph="The normal TÜ math comepetition format. 6 questions, unforunately no calculus."
+        paragraph="No comment"
         pdfUrl="path/to/your/document1.pdf"
         pdfText="exercises"
       />

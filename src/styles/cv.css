@@ -15,15 +15,6 @@
     box-shadow: 0 0 5px 5px white;
   }
 
-  .pdf-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    font-size: 50px;
-    color: white;
-    text-decoration: none;
-  }
 
   .a{
     font-size: 100px

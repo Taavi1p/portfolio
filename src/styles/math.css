@@ -3,14 +3,12 @@
     background-color: black;
   }
 
-  .content {
+  .math-content {
     margin-left:auto;
     margin-right: auto;
     border: 10px white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 1000px;
   }
 
