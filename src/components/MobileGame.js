@@ -11,7 +11,7 @@ const MobileGame = ({ appName, appImage, appStoreLink, googlePlayLink, githubLin
         <h1>{appName}</h1>
         <a href={appStoreLink} target="_blank" rel="noopener noreferrer">Download on the App Store</a>
         <a href={googlePlayLink} target="_blank" rel="noopener noreferrer">Get it on Google Play</a>
-        <a href={githubLink} target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        <a href={githubLink} target="_blank" rel="noopener noreferrer">View Repository on GitHub</a>
       </div>
     </div>
   );
