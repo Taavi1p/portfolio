@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7b723fcb.css",
-    "main.js": "/portfolio/static/js/main.063c4dcc.js",
+    "main.css": "/portfolio/static/css/main.4bc62bb4.css",
+    "main.js": "/portfolio/static/js/main.9f8cdfc7.js",
     "static/media/galois.jpg": "/portfolio/static/media/galois.bd8a918b7f4078f2bb0f.jpg",
     "static/media/riigieksam.pdf": "/portfolio/static/media/riigieksam.db0481ba0f329a7b8309.pdf",
     "static/media/resume.jpg": "/portfolio/static/media/resume.949fc771869bc637cdf9.jpg",
     "static/media/Taavi-modified.jpg": "/portfolio/static/media/Taavi-modified.85348a1512c55560a3a5.jpg",
     "static/media/matlah_2021_22_yl_lahendused_hindamisskeemid_talv.pdf": "/portfolio/static/media/matlah_2021_22_yl_lahendused_hindamisskeemid_talv.96fde5c66c1669bb12da.pdf",
+    "static/media/lvs2017.pdf": "/portfolio/static/media/lvs2017.3116f40d03d4950af263.pdf",
     "static/media/lvs2021.pdf": "/portfolio/static/media/lvs2021.2cdc4a35026ed8cd3d99.pdf",
     "static/media/lvt2017.pdf": "/portfolio/static/media/lvt2017.eafd5e9a01f0f44a44db.pdf",
     "static/media/spring24.pdf": "/portfolio/static/media/spring24.d5ea9319f3375d2d860b.pdf",
@@ -17,11 +18,11 @@
     "static/media/spy.png": "/portfolio/static/media/spy.06db92cc5ef6741e7005.png",
     "static/media/spy2.png": "/portfolio/static/media/spy2.f6fce06705c3206863ad.png",
     "index.html": "/portfolio/index.html",
-    "main.7b723fcb.css.map": "/portfolio/static/css/main.7b723fcb.css.map",
-    "main.063c4dcc.js.map": "/portfolio/static/js/main.063c4dcc.js.map"
+    "main.4bc62bb4.css.map": "/portfolio/static/css/main.4bc62bb4.css.map",
+    "main.9f8cdfc7.js.map": "/portfolio/static/js/main.9f8cdfc7.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b723fcb.css",
-    "static/js/main.063c4dcc.js"
+    "static/css/main.4bc62bb4.css",
+    "static/js/main.9f8cdfc7.js"
   ]
 }
