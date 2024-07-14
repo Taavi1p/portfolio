@@ -7,8 +7,9 @@ import PDF2 from '../images/tumo24.pdf';
 import PDF3 from '../images/riigieksam.pdf';
 import PDF4 from '../images/matlah_2021_22_yl_lahendused_hindamisskeemid_talv.pdf';
 import PDF5 from '../images/lvs2021.pdf';
-import PDF6 from '../images/lvs2021.pdf';
-import PDF7 from '../images/lvt2017.pdf';
+import PDF6 from '../images/lvt2017.pdf';
+import PDF7 from '../images/lvs2017.pdf';
+
 
 function Math() {
   useEffect(() => {
@@ -17,7 +18,7 @@ function Math() {
   return (
     <div className="math-page">
       <div className='math-content'>
-        <div className='header'>In loving memory of...</div>
+        <div className='math-header'>In loving memory of...</div>
         <img src={galoisPic} className='galois-pic'/>
         <MathPost
         header="IMC Estonia preliminary round spring 2024"
@@ -51,13 +52,13 @@ function Math() {
       />
       <MathPost
         header="Estonian high school math competetion winter 2017"
-        paragraph="No comment"
+        paragraph="I got 18/42 points."
         pdfUrl={PDF6}
         pdfText="exercises"
       />
       <MathPost
         header="Estonian high school math competetion autumn 2017"
-        paragraph="No comment"
+        paragraph="I got 14/42 points. My first serious competition"
         pdfUrl={PDF7}
         pdfText="exercises"
       />

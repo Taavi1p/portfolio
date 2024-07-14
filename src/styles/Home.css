@@ -19,24 +19,24 @@
   
   .second-page {
     min-height: 100vh;
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(8, 8, 8);
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-top: 100px;
   }
   
   .navigation-links {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px; /* Space above the navigation links */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%; /* Ensures the links are spread out across the page */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center; 
+    align-items: center; 
     margin-top: auto;
+    margin-bottom: auto;
     perspective: 1000px;
   }
   
@@ -57,19 +57,20 @@
 
 
   .nav-link {
-    height: 200px;
-    width: 450px;
-    margin-top: 10px;
+    height: 180px;
+    width: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
     display: flex; 
     justify-content: center; /* Center horizontally */
     align-items: center;
     padding: 10px 20px; /* Larger clickable area */
     text-decoration: none; /* Removes underline */
-    color: rgb(17, 17, 17)k; /* Set your preferred text color */
-    background-color: rgb(17, 17, 17); /* Default background */
+    color: rgb(17, 17, 17); /* Set your preferred text color */
+    background-color: rgb(14, 14, 14); /* Default background */
     border-radius: 10px;
 
-    position: relative;
+  position: relative;
   transform: rotateX(0deg) rotateY(0deg);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   overflow: hidden;
@@ -101,12 +102,14 @@
     .second-page {
       min-height: 100%
     }
-
-    .navigation-links {
-      flex-direction: column;
-      justify-content: center; /* Center horizontally */
-    align-items: center;
+    .nav-link {
+      height: 140px;
+      width: 300px;
     }
+    .navigation-links {
+      gap: 10px;
+    }
+   
   }
   
   .bounce {
@@ -132,12 +135,17 @@
   /* Base styles for larger screens can be set outside the media queries */
   
   /* Media queries for mobile devices */
-  @media (max-width: 768px) {
+  @media (max-width: 1050px) {
     .background-image {
         height: 100vh; /* Adjust height or other properties as needed */
         padding: 20px; /* Add padding for smaller screens */
     }
-  
+    .navigation-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+    
     .content, .second-page {
         text-align: center;
         padding: 10px; /* Adjust layout and spacing */
@@ -152,7 +160,7 @@
       padding: 0px;
       height: 70px;
       width: 90%;
-      margin: 30px auto;
+      margin: 5px auto;
       display: flex;
       justify-content: center; /* Centers horizontally */
       align-items: center; 
@@ -162,7 +170,7 @@
     padding: 0px;
     height: 70px;
     width: 90%;
-    margin: 30px auto;
+    margin: 5px auto;
     display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center; 
@@ -202,7 +210,6 @@
     animation: floatAnimation 2s ease-in-out infinite;
     margin-left: auto;
     margin-right: 20px;
-    margin-top: auto;
   }
   
   .octocat img {

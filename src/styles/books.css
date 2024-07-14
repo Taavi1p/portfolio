@@ -2,6 +2,8 @@
   padding-top: 100px;
   background-color: black;
   min-height: 100vh;
+  justify-content: center;
+  align-items: center;
   }
 
   .books-content {
@@ -10,7 +12,8 @@
     border: 10px white;
     display: flex;
     flex-direction: column;
-    width: 1000px;
+    width: fit-content;
+    padding-bottom: 100px;
   }
 
   .header {
