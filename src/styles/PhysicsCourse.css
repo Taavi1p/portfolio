@@ -1,0 +1,33 @@
+.expandable-div-course {
+    border-top: 2px solid grey;
+    padding: 10px;
+    margin-top: 50px;
+    width: 800px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(14, 14, 14);
+  }
+  
+  .physics-course-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ccc;
+  }
+  
+  .physics-course-header h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .arrow {
+    font-size: 1.5em;
+  }
+  
+  .physics-course-content {
+    margin-top: 10px;
+    transition: max-height 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  

@@ -1,7 +1,14 @@
 .physics-page {
     background-color: black;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding-top:100px;
+  }
+
+  .physics-content {
+    border: 10px white;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
   }
