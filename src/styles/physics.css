@@ -4,11 +4,12 @@
     display: flex;
     justify-content: center;
     padding-top:100px;
+    box-sizing: border-box;
   }
 
   .physics-content {
+    width: 100%;
     border: 10px white;
     display: flex;
     flex-direction: column;
-    width: fit-content;
   }
