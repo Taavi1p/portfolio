@@ -22,18 +22,18 @@ function Math() {
         <img src={galoisPic} className='galois-pic'/>
         <MathPost
         header="IMC Estonia preliminary round spring 2024"
-        paragraph="The normal TÜ math comepetition format. 6 questions, unforunately no calculus."
+        paragraph="I got 11/100 points. The normal TÜ math comepetition format. 6 questions, unforunately no calculus."
         pdfUrl={PDF1}
         pdfText="exercises"
       />
       <MathPost
         header="TÜ university math competition autumn 2023"
-        paragraph="My first time at the competition. I feel like I did decent. Should have dome better on the calculus question"
+        paragraph="I got 31/100 points. My first time at the competition. I feel like I did decent. Should have dome better on the calculus question"
         pdfUrl={PDF2}
         pdfText="exercises"
       />
       <MathPost
-        header="Estonian High School finishing exams"
+        header="Estonian High School final exams"
         paragraph="I got 92/100. I feel like I did very well, just had a annoying drawing error on the last exercise and lost 8 points because of that."
         pdfUrl={PDF3}
         pdfText="exercises"

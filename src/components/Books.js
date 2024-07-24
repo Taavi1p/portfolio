@@ -9,7 +9,7 @@ function Books() {
   return (
     <div className="books-page">
       <div className='books-content'>
-      <div className='header'>Books I have read</div>
+      <div className='header'>Books I've enjoyed</div>
       <BooksElement
        title="⏳ Mastery"
        author="Robert Greene"

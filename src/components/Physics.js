@@ -17,6 +17,27 @@ import PDF8 from "../images/physics/Year_2/complex/kt2.pdf"
 import PDF9 from "../images/physics/Year_2/complex/kt3.pdf"
 import PDF10 from "../images/physics/Year_2/complex/kt4.pdf"
 
+//Calculus 1
+import PDF11 from "../images/physics/RUG/Calculus 1/final.pdf"
+import PDF12 from "../images/physics/RUG/Calculus 1/midterm.pdf"
+
+//Mechanics and relativity
+import PDF13 from "../images/physics/RUG/Relativity/Daan letter.png"
+import PDF14 from "../images/physics/RUG/Relativity/Exam 1_2021-2022-solutions.pdf"
+import PDF15 from "../images/physics/RUG/Relativity/Exam 1_2021-2022.pdf"
+import PDF16 from "../images/physics/RUG/Relativity/Exam 2_2021-2022.pdf"
+import PDF17 from "../images/physics/RUG/Relativity/Exam 2, solution manual(2).pdf"
+import PDF18 from "../images/physics/RUG/Relativity/failing_average.png"
+import PDF19 from "../images/physics/RUG/Relativity/grade problems.png"
+import PDF20 from "../images/physics/RUG/Relativity/low_averge.png"
+import PDF21 from "../images/physics/RUG/Relativity/M&R_R_Resit_Rubric_2022-2023.pdf"
+import PDF22 from "../images/physics/RUG/Relativity/M&R_R3_rubric.pdf"
+import PDF23 from "../images/physics/RUG/Relativity/R1 2022-23.pdf"
+import PDF24 from "../images/physics/RUG/Relativity/Rubric_R2_2022-2023b.pdf"
+
+import PDF25 from "../images/physics/RUG/Calculus 1/midterm.pdf"
+
+
 function Physics() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -51,7 +72,7 @@ function Physics() {
             <><PhysicsCourse
               header="Loodusteadusliku meetodi seminar 2"
               content={<p>Hea aine, et leida bakatöö juhendaja. Võtab väga palju aega kuid otseseid kodutöid pole.</p>} /><PhysicsCourse
-                header="kompleks muutuja funktsioonid"
+                header="kompleksmuutuja funktsioonid"
                 content={<><p>Lahe teema, palju mahukam kui 3 EAP.</p>
                   <PdfLink url={PDF7} text="Kodutöö 1" />
                   <PdfLink url={PDF8} text="Kodutöö 2" />
@@ -99,10 +120,30 @@ function Physics() {
           content={
             <><PhysicsCourse
               header="Calculus 1"
-              content={<p>Very difficult course for the first period but obiously very necessary. The class average failed the first test.</p>} />
+              content={<><p>Very difficult course for the first period but obiously very necessary. The class average failed the first test.</p>
+                <PdfLink url={PDF11} text="final" />
+                <PdfLink url={PDF12} text="midterm" /></>
+              } />
               <PhysicsCourse
-                header="Mechanics and relativity"
-                content={<p>The hardest courses I have ever taken, amplified by the fact it was on the first period.</p>} />
+                header="Relativity"
+                content={<><p>The hardest courses I have ever taken, amplified by the fact it was on the first period.</p>
+                  <PdfLink url={PDF13} text="Daan letter" />
+                  <PdfLink url={PDF14} text="exam 1 solutions" />
+                  <PdfLink url={PDF15} text="exam 1" />
+                  <PdfLink url={PDF16} text="exam 2" />
+                  <PdfLink url={PDF17} text="exam 2 solutions" />
+                  <PdfLink url={PDF18} text="failing class average" />
+                  <PdfLink url={PDF19} text="grade problems" />
+                  <PdfLink url={PDF20} text="class average" />
+                  <PdfLink url={PDF21} text="resit" />
+                  <PdfLink url={PDF22} text="exam 3 " />
+                  <PdfLink url={PDF23} text="exam 1" />
+                  <PdfLink url={PDF24} text="exam 2" />
+                  </>
+                } />
+                <PhysicsCourse
+                header="Mechanics"
+                content={<p>Also incredibly hard course.</p>} />
                 <PhysicsCourse
                 header="Physics lab 1"
                 content={<p>Took ridicoulous amount of time. Learned a lot about scientific writing.</p>} />

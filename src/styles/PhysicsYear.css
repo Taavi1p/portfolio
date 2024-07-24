@@ -1,12 +1,10 @@
 .expandable-div {
-    border: 2px solid grey;
     padding: 20px;
     margin-bottom: 50px;
     width: 90%;
     max-width: 900px;
     cursor: pointer;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     transition: all 0.3s ease-in-out;
     background-color: rgb(14, 14, 14);
     margin-left: auto;
