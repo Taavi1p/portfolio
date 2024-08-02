@@ -35,7 +35,32 @@ import PDF22 from "../images/physics/RUG/Relativity/M&R_R3_rubric.pdf"
 import PDF23 from "../images/physics/RUG/Relativity/R1 2022-23.pdf"
 import PDF24 from "../images/physics/RUG/Relativity/Rubric_R2_2022-2023b.pdf"
 
-import PDF25 from "../images/physics/RUG/Calculus 1/midterm.pdf"
+//mechanics
+import PDF25 from "../images/physics/RUG/Mechanics/exam_M1.pdf"
+import PDF26 from "../images/physics/RUG/Mechanics/exam_M2.pdf"
+import PDF27 from "../images/physics/RUG/Mechanics/exam_M3.pdf"
+import PDF28 from "../images/physics/RUG/Mechanics/resit.pdf"
+
+//calculus 2
+import PDF29 from "../images/physics/RUG/Calculus 2/MidtermExam.pdf"
+import PDF30 from "../images/physics/RUG/Calculus 2/FinalExam.pdf"
+import PDF31 from "../images/physics/RUG/Calculus 2/ResitExam.pdf"
+import PDF32 from "../images/physics/RUG/Calculus 2/ResitExam-Solutions.pdf"
+
+//Linear algebra
+import PDF33 from "../images/physics/RUG/Linear algebra/midterm.pdf"
+import PDF34 from "../images/physics/RUG/Linear algebra/final.pdf"
+import PDF35 from "../images/physics/RUG/Linear algebra/mock_midterm.pdf"
+import PDF36 from "../images/physics/RUG/Linear algebra/mock_final.pdf"
+
+//em
+import PDF37 from "../images/physics/RUG/EM/test_1.pdf"
+import PDF38 from "../images/physics/RUG/EM/test_2.pdf"
+import PDF39 from "../images/physics/RUG/EM/test_3.pdf"
+import PDF40 from "../images/physics/RUG/EM/answers_5.pdf"
+import PDF41 from "../images/physics/RUG/EM/answers_6.pdf"
+import PDF42 from "../images/physics/RUG/EM/answers_2.pdf"
+
 
 
 function Physics() {
@@ -143,16 +168,31 @@ function Physics() {
                 } />
                 <PhysicsCourse
                 header="Mechanics"
-                content={<p>Also incredibly hard course.</p>} />
+                content={<><p>Also incredibly hard course.</p>
+                 <PdfLink url={PDF25} text="exam_1"/>
+                 <PdfLink url={PDF26} text="exam_2" />
+                 <PdfLink url={PDF27} text="exam_3" />
+                 <PdfLink url={PDF28} text="resit" />
+                 </>} />
                 <PhysicsCourse
                 header="Physics lab 1"
                 content={<p>Took ridicoulous amount of time. Learned a lot about scientific writing.</p>} />
                 <PhysicsCourse
                 header="Calculus 2"
-                content={<p>Great course. Amazingly taught. Hard exams.</p>} />
+                content={<><p>Great course. Amazingly taught. Hard exams.</p>
+                 <PdfLink url={PDF29} text="midterm"/>
+                 <PdfLink url={PDF30} text="exam" />
+                 <PdfLink url={PDF31} text="resit" />
+                 <PdfLink url={PDF32} text="resit_solutions" />
+                 </>} />
                 <PhysicsCourse
                 header="Linear Algebra"
-                content={<p>Enjoyed a lot! not super hard.</p>} />
+                content={<><p>Enjoyed a lot! not super hard.</p>
+                 <PdfLink url={PDF33} text="midterm"/>
+                 <PdfLink url={PDF34} text="final" />
+                 <PdfLink url={PDF35} text="mock_midterm" />
+                 <PdfLink url={PDF36} text="mock_final" />
+                 </>} />
                 <PhysicsCourse
                 header="computational methods"
                 content={<p>Learned about graphs and best-fit lines. Most of the skills are now useless due to chatGPT.</p>} />
@@ -161,7 +201,14 @@ function Physics() {
                 content={<p>Hard course, badly taught. No book, just based on slides.</p>} />
                 <PhysicsCourse
                 header="Electricity and Magnetism"
-                content={<p>Great course anazingly taught. Great professors!</p>} />
+                content={<><p>Great course anazingly taught. Great professors!</p>
+                 <PdfLink url={PDF37} text="test 1"/>
+                 <PdfLink url={PDF38} text="test 2" />
+                 <PdfLink url={PDF39} text="test 3" />
+                 <PdfLink url={PDF40} text="test 5" />
+                 <PdfLink url={PDF41} text="test 6" />
+                 <PdfLink url={PDF42} text="test 2 answres" />
+                 </>} />
                 <PhysicsCourse
                 header="Mathematical physics"
                 content={<p>Not well taught, quite boring course.</p>} />
