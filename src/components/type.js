@@ -7,7 +7,7 @@ const TypingAnimation = () => {
     <div>
       <h1 className="typed-text">
         <ReactTyped 
-          strings={['Welcome aboard the Helicarrier', 'You are safe here', "have a look around"]}
+          strings={['Welcome aboard', 'you are safe here', "have a look around"]}
           typeSpeed={70}
           backSpeed={40}
         />

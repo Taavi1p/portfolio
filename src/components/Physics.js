@@ -107,7 +107,7 @@ function Physics() {
                 } />
                 <PhysicsCourse
                 header="Optika"
-                content={<p>Hea kursus, hästi õpetetud. Kontrolltööd väga lihtsad. Eksam liiga loengute spetsiifiline. KOntrolltäädest pole pilti kahjuks kuna neid ei saanud tagasi.</p>} />
+                content={<p>Hea kursus, hästi õpetetud. Kontrolltööd väga lihtsad. Eksam liiga loengute spetsiifiline. Kontrolltöödest pole pilti kahjuks kuna neid ei saanud tagasi.</p>} />
                 <PhysicsCourse
                 header="Optika labor"
                 content={<p>Kursus, mis võtab kõge rohkem aega 4. semestril. Soovitan väga varakult kõik ära teha.</p>} />
@@ -201,7 +201,7 @@ function Physics() {
                 content={<p>Hard course, badly taught. No book, just based on slides.</p>} />
                 <PhysicsCourse
                 header="Electricity and Magnetism"
-                content={<><p>Great course anazingly taught. Great professors!</p>
+                content={<><p>Great course amazingly taught. Great professors!</p>
                  <PdfLink url={PDF37} text="test 1"/>
                  <PdfLink url={PDF38} text="test 2" />
                  <PdfLink url={PDF39} text="test 3" />
