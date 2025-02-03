@@ -88,6 +88,12 @@ function Physics() {
                   <PdfLink url={PDF6 } text="Kodutöö 5" />
                   </>
                 } />
+                <PhysicsCourse
+                header="Kvantmehaanika"
+                content={<p>Nii teistsugune kogu ülejäänud füüsikast. Juba Schrodingeri võrrandist aru saamine võtab nii palju aega.</p>}/>
+                <PhysicsCourse
+                header="Tuumafüüsika eksperimentaalmeetodid"
+                content={<p>Väga huvitav aine, protokollid jäid tihti arusaamatuks, mida täpselt mõõdan ja arvutan.</p>}/>
                 </>
           } 
         />
@@ -119,7 +125,10 @@ function Physics() {
                 content={<p>Mõtetult spetsiifilised teemad, mida saab ainult slaididelt õppida, mis ei ole heal tasemel. Kursus peaks olema rahvusvahelise õpiku põhjal.</p>} />
                 <PhysicsCourse
                 header="Analüütiline mehaanika"
-                content={<p>Lahe teema, salidid ei ole mugavad õppematerjalid. peab ise materjale leidma, mida on tegelt palju.</p>} /></>
+                content={<p>Lahe teema, salidid ei ole mugavad õppematerjalid. peab ise materjale leidma, mida on tegelt palju.</p>} />
+                <PhysicsCourse
+                header="Insenerigraafika"
+                content={<p>Nii teistsugune kogu ülejäänud füüsikast. Juba Schrodingeri võrrandist aru saamine võtab nii palju aega.</p>}/></>
           } 
         />
         <PhysicsYear 
@@ -137,6 +146,9 @@ function Physics() {
                 <PhysicsCourse
                 header="Tõenäosusteooria ja matemaatiline statistika"
                 content={<p>Keskmise raskusastmega kursus, head veebileongud, pole mõtet kohale minna. Teine kontrolltöö palju raskem kui esimene.</p>} />
+                <PhysicsCourse
+                header="Füüsikaline maailmapilt"
+                content={<p>Huvitavad loengud, lihtsad testid.</p>}/>
               </>
           } 
         />
