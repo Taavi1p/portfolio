@@ -1,19 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8d9754a7.css",
-    "main.js": "/portfolio/static/js/main.9867d0a4.js",
+    "main.js": "/portfolio/static/js/main.26f9aa31.js",
     "static/media/Exam 2, solution manual(2).pdf": "/portfolio/static/media/Exam 2, solution manual(2).46ac1d2288fd662d2deb.pdf",
     "static/media/kt4.pdf": "/portfolio/static/media/kt4.a5b671ddd48bdc6f727d.pdf",
     "static/media/kt2.pdf": "/portfolio/static/media/kt2.142bd3d34e47f67f70d4.pdf",
     "static/media/galois.jpg": "/portfolio/static/media/galois.bd8a918b7f4078f2bb0f.jpg",
     "static/media/kt3.pdf": "/portfolio/static/media/kt3.81c1856bc63a21ed9546.pdf",
     "static/media/kt1.pdf": "/portfolio/static/media/kt1.c23201ec505b685d3494.pdf",
+    "static/media/5.4.pdf": "/portfolio/static/media/5.4.43c81c19b67773b5a98f.pdf",
     "static/media/Rubric_R2_2022-2023b.pdf": "/portfolio/static/media/Rubric_R2_2022-2023b.7d01c1f25e31c454daf4.pdf",
+    "static/media/8.4.pdf": "/portfolio/static/media/8.4.12905e769ac1aa2b94de.pdf",
     "static/media/test_1.pdf": "/portfolio/static/media/test_1.f45666955167bc75bd33.pdf",
     "static/media/M&R_R_Resit_Rubric_2022-2023.pdf": "/portfolio/static/media/M&R_R_Resit_Rubric_2022-2023.b1daea4155d01181162d.pdf",
     "static/media/kt5.pdf": "/portfolio/static/media/kt5.d076548c2555d557ffcf.pdf",
     "static/media/answers_2.pdf": "/portfolio/static/media/answers_2.fd7b21275272d1e7a5d6.pdf",
     "static/media/Exam 2_2021-2022.pdf": "/portfolio/static/media/Exam 2_2021-2022.aaadbcf916374e112646.pdf",
+    "static/media/4.1.pdf": "/portfolio/static/media/4.1.61c1685f3769a37ad79e.pdf",
+    "static/media/6.1.pdf": "/portfolio/static/media/6.1.cd13247838fe6fe0cbdd.pdf",
     "static/media/test_2.pdf": "/portfolio/static/media/test_2.db0233c357876bb2db55.pdf",
     "static/media/test_3.pdf": "/portfolio/static/media/test_3.f4d4bde848d45ac54e0c.pdf",
     "static/media/exam_M3.pdf": "/portfolio/static/media/exam_M3.62df7b79aba3be35f27e.pdf",
@@ -21,11 +25,14 @@
     "static/media/resit.pdf": "/portfolio/static/media/resit.f9df4d5db5a64498d221.pdf",
     "static/media/riigieksam.pdf": "/portfolio/static/media/riigieksam.db0481ba0f329a7b8309.pdf",
     "static/media/exam_M2.pdf": "/portfolio/static/media/exam_M2.9d1f0278a539b7197e6b.pdf",
+    "static/media/1.2.pdf": "/portfolio/static/media/1.2.6b4bac61b1e0b84ed7a4.pdf",
     "static/media/answers_5.pdf": "/portfolio/static/media/answers_5.9375cb63b8b776aa995e.pdf",
     "static/media/resume.jpg": "/portfolio/static/media/resume.949fc771869bc637cdf9.jpg",
+    "static/media/2.1.pdf": "/portfolio/static/media/2.1.52d79067cd505270ee04.pdf",
     "static/media/MD_homework_Taavi.pdf": "/portfolio/static/media/MD_homework_Taavi.3b066cdfc5ad0e89a313.pdf",
     "static/media/exam_M1.pdf": "/portfolio/static/media/exam_M1.85f7d8b38c34f288e63f.pdf",
     "static/media/Taavi-modified.jpg": "/portfolio/static/media/Taavi-modified.85348a1512c55560a3a5.jpg",
+    "static/media/7.2.pdf": "/portfolio/static/media/7.2.d7625f09ea0e52a102ab.pdf",
     "static/media/homework_2.pdf": "/portfolio/static/media/homework_2.c0857b039f8bd022eb17.pdf",
     "static/media/answers_6.pdf": "/portfolio/static/media/answers_6.af5dbfaf36da17fbea5a.pdf",
     "static/media/midterm.pdf": "/portfolio/static/media/midterm.8f0b60174651f3912976.pdf",
@@ -56,10 +63,10 @@
     "static/media/spy2.png": "/portfolio/static/media/spy2.f6fce06705c3206863ad.png",
     "index.html": "/portfolio/index.html",
     "main.8d9754a7.css.map": "/portfolio/static/css/main.8d9754a7.css.map",
-    "main.9867d0a4.js.map": "/portfolio/static/js/main.9867d0a4.js.map"
+    "main.26f9aa31.js.map": "/portfolio/static/js/main.26f9aa31.js.map"
   },
   "entrypoints": [
     "static/css/main.8d9754a7.css",
-    "static/js/main.9867d0a4.js"
+    "static/js/main.26f9aa31.js"
   ]
 }
