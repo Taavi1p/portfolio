@@ -61,6 +61,17 @@ import PDF40 from "../images/physics/RUG/EM/answers_5.pdf"
 import PDF41 from "../images/physics/RUG/EM/answers_6.pdf"
 import PDF42 from "../images/physics/RUG/EM/answers_2.pdf"
 
+//optika labor
+import PDF43 from "../images/physics/Year_2/labor/1.2.pdf"
+import PDF44 from "../images/physics/Year_2/labor/2.1.pdf"
+import PDF45 from "../images/physics/Year_2/labor/4.1.pdf"
+import PDF46 from "../images/physics/Year_2/labor/5.4.pdf"
+import PDF47 from "../images/physics/Year_2/labor/6.1.pdf"
+import PDF48 from "../images/physics/Year_2/labor/7.2.pdf"
+import PDF49 from "../images/physics/Year_2/labor/8.4.pdf"
+
+
+
 
 
 function Physics() {
@@ -116,7 +127,16 @@ function Physics() {
                 content={<p>Hea kursus, hästi õpetetud. Kontrolltööd väga lihtsad. Eksam liiga loengute spetsiifiline. Kontrolltöödest pole pilti kahjuks kuna neid ei saanud tagasi.</p>} />
                 <PhysicsCourse
                 header="Optika labor"
-                content={<p>Kursus, mis võtab kõge rohkem aega 4. semestril. Soovitan väga varakult kõik ära teha.</p>} />
+                content={<><p>Kursus, mis võtab kõge rohkem aega 4. semestril. Soovitan väga varakult kõik ära teha.</p>
+                  <PdfLink url={PDF43} text="protokoll 1.2" />
+                  <PdfLink url={PDF44} text="protokoll 2.1" />
+                  <PdfLink url={PDF45} text="protokoll 4.1" />
+                  <PdfLink url={PDF46} text="protokoll 5.4" />
+                  <PdfLink url={PDF47} text="protokoll 6.1" />
+                  <PdfLink url={PDF48} text="protokoll 7.2" />
+                  <PdfLink url={PDF49} text="protokoll 8.4" />
+                  </>
+                } />
                 <PhysicsCourse
                 header="Globaalfüüsika"
                 content={<p>Huvitav kursus, mitte super raske.</p>} />
