@@ -1,21 +1,28 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8d9754a7.css",
-    "main.js": "/portfolio/static/js/main.26f9aa31.js",
+    "main.js": "/portfolio/static/js/main.7fdf7d23.js",
     "static/media/Exam 2, solution manual(2).pdf": "/portfolio/static/media/Exam 2, solution manual(2).46ac1d2288fd662d2deb.pdf",
     "static/media/kt4.pdf": "/portfolio/static/media/kt4.a5b671ddd48bdc6f727d.pdf",
     "static/media/kt2.pdf": "/portfolio/static/media/kt2.142bd3d34e47f67f70d4.pdf",
     "static/media/galois.jpg": "/portfolio/static/media/galois.bd8a918b7f4078f2bb0f.jpg",
     "static/media/kt3.pdf": "/portfolio/static/media/kt3.81c1856bc63a21ed9546.pdf",
     "static/media/kt1.pdf": "/portfolio/static/media/kt1.c23201ec505b685d3494.pdf",
+    "static/media/KT_1.pdf": "/portfolio/static/media/KT_1.0584c1d16919b5bc5171.pdf",
+    "static/media/KT_6.pdf": "/portfolio/static/media/KT_6.c66909f56559680410aa.pdf",
+    "static/media/KT_7.pdf": "/portfolio/static/media/KT_7.883d32ac5e810575f14e.pdf",
     "static/media/5.4.pdf": "/portfolio/static/media/5.4.43c81c19b67773b5a98f.pdf",
     "static/media/Rubric_R2_2022-2023b.pdf": "/portfolio/static/media/Rubric_R2_2022-2023b.7d01c1f25e31c454daf4.pdf",
+    "static/media/KT_2.pdf": "/portfolio/static/media/KT_2.f162318a86ccfcbb0a1f.pdf",
     "static/media/8.4.pdf": "/portfolio/static/media/8.4.12905e769ac1aa2b94de.pdf",
     "static/media/test_1.pdf": "/portfolio/static/media/test_1.f45666955167bc75bd33.pdf",
+    "static/media/KT_3.pdf": "/portfolio/static/media/KT_3.41cd2be8673c93433f10.pdf",
     "static/media/M&R_R_Resit_Rubric_2022-2023.pdf": "/portfolio/static/media/M&R_R_Resit_Rubric_2022-2023.b1daea4155d01181162d.pdf",
     "static/media/kt5.pdf": "/portfolio/static/media/kt5.d076548c2555d557ffcf.pdf",
+    "static/media/KT_4.pdf": "/portfolio/static/media/KT_4.999dd29e454326d05e4f.pdf",
     "static/media/answers_2.pdf": "/portfolio/static/media/answers_2.fd7b21275272d1e7a5d6.pdf",
     "static/media/Exam 2_2021-2022.pdf": "/portfolio/static/media/Exam 2_2021-2022.aaadbcf916374e112646.pdf",
+    "static/media/KT_5.pdf": "/portfolio/static/media/KT_5.b07e4974c6aec3f0e598.pdf",
     "static/media/4.1.pdf": "/portfolio/static/media/4.1.61c1685f3769a37ad79e.pdf",
     "static/media/6.1.pdf": "/portfolio/static/media/6.1.cd13247838fe6fe0cbdd.pdf",
     "static/media/test_2.pdf": "/portfolio/static/media/test_2.db0233c357876bb2db55.pdf",
@@ -48,6 +55,7 @@
     "static/media/final.pdf": "/portfolio/static/media/final.63d89d46c8f52ee3ecd9.pdf",
     "static/media/grade problems.png": "/portfolio/static/media/grade problems.3a422d96433fc0f9f934.png",
     "static/media/mock_midterm.pdf": "/portfolio/static/media/mock_midterm.3e9b199c75cbb80f3f1c.pdf",
+    "static/media/kontrolltöö_1.pdf": "/portfolio/static/media/kontrolltöö_1.26e87e50d06ef66b67d4.pdf",
     "static/media/Exam 1_2021-2022-solutions.pdf": "/portfolio/static/media/Exam 1_2021-2022-solutions.71c1c7dbf80ef8dae302.pdf",
     "static/media/low_averge.png": "/portfolio/static/media/low_averge.955c8726056e41e33bf2.png",
     "static/media/Exam 1_2021-2022.pdf": "/portfolio/static/media/Exam 1_2021-2022.95528b512351fbcc4c9b.pdf",
@@ -58,15 +66,17 @@
     "static/media/failing_average.png": "/portfolio/static/media/failing_average.25ec4b38b9b84f5850a8.png",
     "static/media/ResitExam.pdf": "/portfolio/static/media/ResitExam.1f2c07ec2ab7c07f1920.pdf",
     "static/media/boggle.png": "/portfolio/static/media/boggle.b7aae75e25c2b4c49c1e.png",
+    "static/media/eksam.jpg": "/portfolio/static/media/eksam.e1c7ed1355aa2b6e7901.jpg",
     "static/media/octocat.png": "/portfolio/static/media/octocat.d334b3c0a488f1ee9c72.png",
+    "static/media/kontrolltöö_2.jpg": "/portfolio/static/media/kontrolltöö_2.eed6bfaa7848a07e5d55.jpg",
     "static/media/spy.png": "/portfolio/static/media/spy.06db92cc5ef6741e7005.png",
     "static/media/spy2.png": "/portfolio/static/media/spy2.f6fce06705c3206863ad.png",
     "index.html": "/portfolio/index.html",
     "main.8d9754a7.css.map": "/portfolio/static/css/main.8d9754a7.css.map",
-    "main.26f9aa31.js.map": "/portfolio/static/js/main.26f9aa31.js.map"
+    "main.7fdf7d23.js.map": "/portfolio/static/js/main.7fdf7d23.js.map"
   },
   "entrypoints": [
     "static/css/main.8d9754a7.css",
-    "static/js/main.26f9aa31.js"
+    "static/js/main.7fdf7d23.js"
   ]
 }
