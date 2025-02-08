@@ -70,9 +70,17 @@ import PDF47 from "../images/physics/Year_2/labor/6.1.pdf"
 import PDF48 from "../images/physics/Year_2/labor/7.2.pdf"
 import PDF49 from "../images/physics/Year_2/labor/8.4.pdf"
 
-
-
-
+//kvant
+import PDF50 from "../images/physics/Year_3/kvant/KT_1.pdf"
+import PDF51 from "../images/physics/Year_3/kvant/KT_2.pdf"
+import PDF52 from "../images/physics/Year_3/kvant/KT_3.pdf"
+import PDF53 from "../images/physics/Year_3/kvant/KT_4.pdf"
+import PDF54 from "../images/physics/Year_3/kvant/KT_5.pdf"
+import PDF55 from "../images/physics/Year_3/kvant/KT_6.pdf"
+import PDF56 from "../images/physics/Year_3/kvant/KT_7.pdf"
+import PDF57 from "../images/physics/Year_3/kvant/kontrolltöö_1.pdf"
+import PDF58 from "../images/physics/Year_3/kvant/kontrolltöö_2.jpg"
+import PDF59 from "../images/physics/Year_3/kvant/eksam.jpg"
 
 function Physics() {
   useEffect(() => {
@@ -101,7 +109,19 @@ function Physics() {
                 } />
                 <PhysicsCourse
                 header="Kvantmehaanika"
-                content={<p>Nii teistsugune kogu ülejäänud füüsikast. Juba Schrodingeri võrrandist aru saamine võtab nii palju aega.</p>}/>
+                content={<><p>Nii teistsugune kogu ülejäänud füüsikast. Juba Schrodingeri võrrandist aru saamine võtab nii palju aega.</p>
+                      <PdfLink url={PDF50} text="Kodutöö 1" />
+                      <PdfLink url={PDF51} text="Kodutöö 2" />
+                      <PdfLink url={PDF52} text="Kodutöö 3" />
+                      <PdfLink url={PDF53} text="Kodutöö 4" />
+                      <PdfLink url={PDF54} text="Kodutöö 5" />
+                      <PdfLink url={PDF55} text="Kodutöö 6" />
+                      <PdfLink url={PDF56} text="Kodutöö 7" />
+                      <PdfLink url={PDF57} text="Kontrolltöö 1" />
+                      <PdfLink url={PDF58} text="Kontrolltöö 2" />
+                      <PdfLink url={PDF59} text="eksam" />
+                  </>  
+                }/>
                 <PhysicsCourse
                 header="Tuumafüüsika eksperimentaalmeetodid"
                 content={<p>Väga huvitav aine, protokollid jäid tihti arusaamatuks, mida täpselt mõõdan ja arvutan.</p>}/>
