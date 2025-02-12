@@ -82,6 +82,18 @@ import PDF57 from "../images/physics/Year_3/kvant/kontrolltöö_1.pdf"
 import PDF58 from "../images/physics/Year_3/kvant/kontrolltöö_2.jpg"
 import PDF59 from "../images/physics/Year_3/kvant/eksam.jpg"
 
+//tuum
+import PDF60 from "../images/physics/Year_3/tuum/Alfaspektromeetria.pdf"
+import PDF61 from "../images/physics/Year_3/tuum/Gammaspektromeetria.pdf"
+import PDF62 from "../images/physics/Year_3/tuum/Käsimõõteseadmed.pdf"
+import PDF63 from "../images/physics/Year_3/tuum/LSC.pdf"
+import PDF64 from "../images/physics/Year_3/tuum/Modelleerimine.pdf"
+
+//matfüs
+import PDF65 from "../images/physics/Year_3/matfüs/KT_3.pdf"
+import PDF66 from "../images/physics/Year_3/matfüs/KT_4.pdf"
+import PDF67 from "../images/physics/Year_3/matfüs/eksam.pdf"
+
 function Physics() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -124,10 +136,15 @@ function Physics() {
                 }/>
                 <PhysicsCourse
                 header="Tuumafüüsika eksperimentaalmeetodid"
-                content={<p>Väga huvitav aine, protokollid jäid tihti arusaamatuks, mida täpselt mõõdan ja arvutan.</p>}/>
+                content={<><p>Väga huvitav aine, protokollid jäid tihti arusaamatuks, mida täpselt mõõdan ja arvutan.</p>
+                  <PdfLink url={PDF60} text="Alfaspektromeetria" />
+                  <PdfLink url={PDF61} text="Gammaspektromeetria" />
+                  <PdfLink url={PDF62} text="Käsimõõteseadmed" />
+                  <PdfLink url={PDF63} text="LSC" />
+                  <PdfLink url={PDF64} text="Modelleerimine" />
                 </>
-          } 
-        />
+              }/>
+              </>}/>
          <PhysicsYear 
           header="PHYSICS BA YEAR 2 - TÜ" 
           content={
@@ -162,7 +179,12 @@ function Physics() {
                 content={<p>Huvitav kursus, mitte super raske.</p>} />
                 <PhysicsCourse
                 header="Matemaailise füüsika võrrandid"
-                content={<p>Mõtetult spetsiifilised teemad, mida saab ainult slaididelt õppida, mis ei ole heal tasemel. Kursus peaks olema rahvusvahelise õpiku põhjal.</p>} />
+                content={<><p>Mõtetult spetsiifilised teemad, mida saab ainult slaididelt õppida, mis ei ole heal tasemel. Kursus peaks olema rahvusvahelise õpiku põhjal.</p>
+                <PdfLink url={PDF65} text="Kontrolltöö_3" />
+                <PdfLink url={PDF66} text="Kontrolltöö_4" />
+                <PdfLink url={PDF67} text="eksam" />
+                </>
+                } />
                 <PhysicsCourse
                 header="Analüütiline mehaanika"
                 content={<p>Lahe teema, salidid ei ole mugavad õppematerjalid. peab ise materjale leidma, mida on tegelt palju.</p>} />
