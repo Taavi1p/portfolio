@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8d9754a7.css",
-    "main.js": "/portfolio/static/js/main.7fdf7d23.js",
+    "main.js": "/portfolio/static/js/main.dd2c5cd1.js",
     "static/media/Exam 2, solution manual(2).pdf": "/portfolio/static/media/Exam 2, solution manual(2).46ac1d2288fd662d2deb.pdf",
     "static/media/kt4.pdf": "/portfolio/static/media/kt4.a5b671ddd48bdc6f727d.pdf",
     "static/media/kt2.pdf": "/portfolio/static/media/kt2.142bd3d34e47f67f70d4.pdf",
     "static/media/galois.jpg": "/portfolio/static/media/galois.bd8a918b7f4078f2bb0f.jpg",
     "static/media/kt3.pdf": "/portfolio/static/media/kt3.81c1856bc63a21ed9546.pdf",
     "static/media/kt1.pdf": "/portfolio/static/media/kt1.c23201ec505b685d3494.pdf",
+    "static/media/KT_4.pdf": "/portfolio/static/media/KT_4.999dd29e454326d05e4f.pdf",
+    "static/media/KT_3.pdf": "/portfolio/static/media/KT_3.41cd2be8673c93433f10.pdf",
     "static/media/KT_1.pdf": "/portfolio/static/media/KT_1.0584c1d16919b5bc5171.pdf",
     "static/media/KT_6.pdf": "/portfolio/static/media/KT_6.c66909f56559680410aa.pdf",
     "static/media/KT_7.pdf": "/portfolio/static/media/KT_7.883d32ac5e810575f14e.pdf",
@@ -15,11 +17,10 @@
     "static/media/Rubric_R2_2022-2023b.pdf": "/portfolio/static/media/Rubric_R2_2022-2023b.7d01c1f25e31c454daf4.pdf",
     "static/media/KT_2.pdf": "/portfolio/static/media/KT_2.f162318a86ccfcbb0a1f.pdf",
     "static/media/8.4.pdf": "/portfolio/static/media/8.4.12905e769ac1aa2b94de.pdf",
+    "static/media/Gammaspektromeetria.pdf": "/portfolio/static/media/Gammaspektromeetria.cd0aa1529840371a9407.pdf",
     "static/media/test_1.pdf": "/portfolio/static/media/test_1.f45666955167bc75bd33.pdf",
-    "static/media/KT_3.pdf": "/portfolio/static/media/KT_3.41cd2be8673c93433f10.pdf",
     "static/media/M&R_R_Resit_Rubric_2022-2023.pdf": "/portfolio/static/media/M&R_R_Resit_Rubric_2022-2023.b1daea4155d01181162d.pdf",
     "static/media/kt5.pdf": "/portfolio/static/media/kt5.d076548c2555d557ffcf.pdf",
-    "static/media/KT_4.pdf": "/portfolio/static/media/KT_4.999dd29e454326d05e4f.pdf",
     "static/media/answers_2.pdf": "/portfolio/static/media/answers_2.fd7b21275272d1e7a5d6.pdf",
     "static/media/Exam 2_2021-2022.pdf": "/portfolio/static/media/Exam 2_2021-2022.aaadbcf916374e112646.pdf",
     "static/media/KT_5.pdf": "/portfolio/static/media/KT_5.b07e4974c6aec3f0e598.pdf",
@@ -39,13 +40,17 @@
     "static/media/MD_homework_Taavi.pdf": "/portfolio/static/media/MD_homework_Taavi.3b066cdfc5ad0e89a313.pdf",
     "static/media/exam_M1.pdf": "/portfolio/static/media/exam_M1.85f7d8b38c34f288e63f.pdf",
     "static/media/Taavi-modified.jpg": "/portfolio/static/media/Taavi-modified.85348a1512c55560a3a5.jpg",
+    "static/media/LSC.pdf": "/portfolio/static/media/LSC.a6e12bb57c1202942910.pdf",
     "static/media/7.2.pdf": "/portfolio/static/media/7.2.d7625f09ea0e52a102ab.pdf",
     "static/media/homework_2.pdf": "/portfolio/static/media/homework_2.c0857b039f8bd022eb17.pdf",
     "static/media/answers_6.pdf": "/portfolio/static/media/answers_6.af5dbfaf36da17fbea5a.pdf",
+    "static/media/Alfaspektromeetria.pdf": "/portfolio/static/media/Alfaspektromeetria.f2774199554b3ec5574d.pdf",
     "static/media/midterm.pdf": "/portfolio/static/media/midterm.8f0b60174651f3912976.pdf",
     "static/media/M&R_R3_rubric.pdf": "/portfolio/static/media/M&R_R3_rubric.439635b814f52039c667.pdf",
     "static/media/matlah_2021_22_yl_lahendused_hindamisskeemid_talv.pdf": "/portfolio/static/media/matlah_2021_22_yl_lahendused_hindamisskeemid_talv.96fde5c66c1669bb12da.pdf",
+    "static/media/Käsimõõteseadmed.pdf": "/portfolio/static/media/Käsimõõteseadmed.cab47ed4cb087db7eba0.pdf",
     "static/media/lvs2017.pdf": "/portfolio/static/media/lvs2017.3116f40d03d4950af263.pdf",
+    "static/media/Modelleerimine.pdf": "/portfolio/static/media/Modelleerimine.104f46028c2e2b66505e.pdf",
     "static/media/lvs2021.pdf": "/portfolio/static/media/lvs2021.2cdc4a35026ed8cd3d99.pdf",
     "static/media/lvt2017.pdf": "/portfolio/static/media/lvt2017.eafd5e9a01f0f44a44db.pdf",
     "static/media/spring24.pdf": "/portfolio/static/media/spring24.d5ea9319f3375d2d860b.pdf",
@@ -68,15 +73,16 @@
     "static/media/boggle.png": "/portfolio/static/media/boggle.b7aae75e25c2b4c49c1e.png",
     "static/media/eksam.jpg": "/portfolio/static/media/eksam.e1c7ed1355aa2b6e7901.jpg",
     "static/media/octocat.png": "/portfolio/static/media/octocat.d334b3c0a488f1ee9c72.png",
+    "static/media/eksam.pdf": "/portfolio/static/media/eksam.62759305e1d9ac1ff242.pdf",
     "static/media/kontrolltöö_2.jpg": "/portfolio/static/media/kontrolltöö_2.eed6bfaa7848a07e5d55.jpg",
     "static/media/spy.png": "/portfolio/static/media/spy.06db92cc5ef6741e7005.png",
     "static/media/spy2.png": "/portfolio/static/media/spy2.f6fce06705c3206863ad.png",
     "index.html": "/portfolio/index.html",
     "main.8d9754a7.css.map": "/portfolio/static/css/main.8d9754a7.css.map",
-    "main.7fdf7d23.js.map": "/portfolio/static/js/main.7fdf7d23.js.map"
+    "main.dd2c5cd1.js.map": "/portfolio/static/js/main.dd2c5cd1.js.map"
   },
   "entrypoints": [
     "static/css/main.8d9754a7.css",
-    "static/js/main.7fdf7d23.js"
+    "static/js/main.dd2c5cd1.js"
   ]
 }
