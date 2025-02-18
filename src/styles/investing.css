@@ -1,9 +1,10 @@
 .investing-page {
   padding-top: 100px;
   background-color: black;
-  min-height: 100vh;
+  height: 100vh;
   align-items: center;
     justify-content: center;
+    box-sizing: border-box;
   }
 
   .investing-content {

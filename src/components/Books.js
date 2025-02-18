@@ -11,7 +11,11 @@ function Books() {
       <div className='books-content'>
       <div className='header'>Books I've enjoyed</div>
       <BooksElement
-       title="⏳ Mastery"
+       title="The Man Who Solved the Market"
+       author="Gregory Zuckerman"
+      />
+      <BooksElement
+       title="Mastery"
        author="Robert Greene"
       />
       <BooksElement

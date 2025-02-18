@@ -180,8 +180,8 @@ function Physics() {
                 <PhysicsCourse
                 header="Matemaailise füüsika võrrandid"
                 content={<><p>Mõtetult spetsiifilised teemad, mida saab ainult slaididelt õppida, mis ei ole heal tasemel. Kursus peaks olema rahvusvahelise õpiku põhjal.</p>
-                <PdfLink url={PDF65} text="Kontrolltöö_3" />
-                <PdfLink url={PDF66} text="Kontrolltöö_4" />
+                <PdfLink url={PDF65} text="Kodutöö_3" />
+                <PdfLink url={PDF66} text="Kodutöö_4" />
                 <PdfLink url={PDF67} text="eksam" />
                 </>
                 } />

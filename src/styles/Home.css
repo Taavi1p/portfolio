@@ -67,7 +67,7 @@
     padding: 10px 20px; /* Larger clickable area */
     text-decoration: none; /* Removes underline */
     color: rgb(17, 17, 17); /* Set your preferred text color */
-    background-color: rgb(14, 14, 14); /* Default background */
+    background-color: rgb(31, 31, 31); /* Default background */
     border-radius: 10px;
 
   position: relative;
