@@ -9,7 +9,7 @@ function Investing() {
   return (
     <div className="investing-page">
       <div className='investing-content'>
-        <div className='header'>Positions I hold</div>
+        <div className='header'>Positions</div>
         <InvestingElement stock="Global X Uranium UCITS ETF USD"/>
         <InvestingElement stock="Global X Solar UCITS ETF USD"/>
 

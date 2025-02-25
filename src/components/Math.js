@@ -24,43 +24,43 @@ function Math() {
         header="IMC Estonia preliminary round spring 2024"
         paragraph="I got 11/100 points. The normal TÜ math comepetition format. 6 questions, unforunately no calculus."
         pdfUrl={PDF1}
-        pdfText="exercises"
+        pdfText="problems"
       />
       <MathPost
         header="TÜ university math competition autumn 2023"
         paragraph="I got 31/100 points. My first time at the competition. I feel like I did decent. Should have dome better on the calculus question"
         pdfUrl={PDF2}
-        pdfText="exercises"
+        pdfText="problems"
       />
       <MathPost
         header="Estonian High School final exams"
         paragraph="I got 92/100. I feel like I did very well, just had a annoying drawing error on the last exercise and lost 8 points because of that."
         pdfUrl={PDF3}
-        pdfText="exercises"
+        pdfText="problems"
       />
       <MathPost
         header="Estonian high school math competetion winter 2021"
         paragraph="No comment"
         pdfUrl={PDF4}
-        pdfText="exercises"
+        pdfText="problems"
       />
       <MathPost
         header="Estonian high school math competetion autumn 2021"
         paragraph="No comment"
         pdfUrl={PDF5}
-        pdfText="exercises"
+        pdfText="problems"
       />
       <MathPost
         header="Estonian high school math competetion winter 2017"
         paragraph="I got 18/42 points."
         pdfUrl={PDF6}
-        pdfText="exercises"
+        pdfText="problems"
       />
       <MathPost
         header="Estonian high school math competetion autumn 2017"
         paragraph="I got 14/42 points. My first serious competition"
         pdfUrl={PDF7}
-        pdfText="exercises"
+        pdfText="problems"
       />
       </div>
     </div>
