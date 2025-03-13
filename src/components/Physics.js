@@ -190,7 +190,7 @@ function Physics() {
                 content={<p>Lahe teema, salidid ei ole mugavad õppematerjalid. peab ise materjale leidma, mida on tegelt palju.</p>} />
                 <PhysicsCourse
                 header="Insenerigraafika"
-                content={<p>Nii teistsugune kogu ülejäänud füüsikast. Juba Schrodingeri võrrandist aru saamine võtab nii palju aega.</p>}/></>
+                content={<p>Lahe ja kasulik aine</p>}/></>
           } 
         />
         <PhysicsYear 
