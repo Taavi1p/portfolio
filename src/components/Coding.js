@@ -12,7 +12,7 @@ function Coding() {
   return (
     <div className="coding-page">
       <div className="coding-content">
-       <div className='header'>Mobile games I have made</div>
+       <div className='header'>Mobile games I've made</div>
        <div className='mobile-apps'>
        <MobileGame 
          appName="Spyfall"
@@ -36,6 +36,9 @@ function Coding() {
          githubLink="https://github.com/Taavi1p/boggle"
        />
         </div>
+        <div className='header'>Websites I've made</div>
+        <a href="https://taavi1p.github.io/energy-tracker/" target="_blank" className='link'>US energy producers website</a>
+        <a href="https://taavi1p.github.io/portfolio/" target="_blank" className='link'>This one</a>
       </div>
     </div>
 );
