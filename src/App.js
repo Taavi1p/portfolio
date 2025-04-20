@@ -10,6 +10,7 @@ import Socials from "./components/Socials";
 import Coding from "./components/Coding";
 import Books from "./components/Books";
 import Investing from "./components/Investing";
+import Websites from "./components/Websites";
 
 
 
@@ -27,6 +28,7 @@ function App() {
     <Route path="/Coding" element={<Coding />} />
     <Route path="/Books" element={<Books />} />
     <Route path="/Investing" element={<Investing />} />
+    <Route path="/Websites" element={<Websites />} />
   </Routes>
   </Router>
   );
