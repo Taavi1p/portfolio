@@ -1,6 +1,6 @@
 .physics-page {
-    background-color: black;
     min-height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     padding-top:100px;

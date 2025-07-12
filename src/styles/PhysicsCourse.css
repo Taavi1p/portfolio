@@ -1,34 +1,43 @@
 .expandable-div-course {
-    border-top: 2px solid grey;
-    padding: 10px;
-    margin-top: 50px;
-    width:90%;
+    border-top: 2px solid rgba(255, 255, 255, 0.2); /* Subtle border for a modern look */
+    border-radius: 10px; /* Slightly more rounded corners */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 90%;
     max-width: 800px;
     cursor: pointer;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
     transition: all 0.3s ease-in-out;
-    background-color: rgb(31, 31, 31);
-  }
-  
-  .physics-course-header {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.physics-course-header {
+    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #ccc;
-  }
-  
-  .physics-course-header h2 {
+    color: #fff; /* White text for better contrast */
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); /* Subtle text shadow for readability */
+}
+
+.physics-course-header h2 {
     margin: 0;
     font-size: 1.5em;
-  }
-  
-  .arrow {
+}
+
+.arrow {
     font-size: 1.5em;
-  }
-  
-  .physics-course-content {
+    color: #fff; /* Match the header text color */
+}
+
+.physics-course-content {
+    padding: 15px;
     margin-top: 10px;
     transition: max-height 0.3s ease-in-out;
     overflow: hidden;
-  }
-  
+    color: #fff; /* White text for content */
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); /* Subtle text shadow */
+}

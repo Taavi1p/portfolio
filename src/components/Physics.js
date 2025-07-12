@@ -3,6 +3,7 @@ import '../styles/physics.css';
 import PhysicsYear from './PhysicsYear';
 import PhysicsCourse from './PhysicsCourse';
 import PdfLink from './PdfLink'; 
+import PageWrapper from "./PageWrapper";
 
 import PDF1 from "../images/physics/Year_3/KF/MD_homework_Taavi.pdf"
 import PDF2 from "../images/physics/Year_3/KF/homework_2.pdf"
@@ -99,6 +100,7 @@ function Physics() {
     window.scrollTo(0, 0);
   }, []);
   return (
+    <PageWrapper>
     <div className="physics-page">
       <div className="physics-content">
       <PhysicsYear 
@@ -293,6 +295,7 @@ function Physics() {
         />
       </div>
     </div>
+    </PageWrapper>
 );
 }
 

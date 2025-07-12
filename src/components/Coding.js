@@ -4,12 +4,14 @@ import MobileGame from "./MobileGame.js"
 import PIC1 from "../images/spy.png"
 import PIC2 from "../images/spy2.png"
 import PIC3 from "../images/boggle.png"
+import PageWrapper from "./PageWrapper";
 
 function Coding() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
+    <PageWrapper>
     <div className="coding-page">
       <div className="coding-content">
        <div className='header'>Mobile games I've made</div>
@@ -38,6 +40,7 @@ function Coding() {
         </div>
       </div>
     </div>
+    </PageWrapper>
 );
 }
 

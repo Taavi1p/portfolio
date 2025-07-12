@@ -9,6 +9,7 @@ import PDF4 from '../images/matlah_2021_22_yl_lahendused_hindamisskeemid_talv.pd
 import PDF5 from '../images/lvs2021.pdf';
 import PDF6 from '../images/lvt2017.pdf';
 import PDF7 from '../images/lvs2017.pdf';
+import PageWrapper from "./PageWrapper";
 
 
 function Math() {
@@ -16,6 +17,7 @@ function Math() {
     window.scrollTo(0, 0);
   }, []);
   return (
+    <PageWrapper>
     <div className="math-page">
       <div className='math-content'>
         <div className='math-header'>In loving memory of...</div>
@@ -64,6 +66,7 @@ function Math() {
       />
       </div>
     </div>
+    </PageWrapper>
 );
 }
 
