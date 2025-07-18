@@ -180,6 +180,15 @@
 .nav-link:hover::before {
     transform: none !important;
     box-shadow: none !important;
+    background: none !important;
+    filter: none !important;
+    color: inherit !important;
+}
+
+.nav-link::before {
+    background: none !important;
+    transition: none !important;
+    transform: none !important;
 }
 }
   

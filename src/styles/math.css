@@ -33,6 +33,8 @@
   @media (max-width: 1200px) {
     .galois-pic {
       width: 80vw;
-
+    }
+    .math-content {
+      width: 80vw;
     }
   }

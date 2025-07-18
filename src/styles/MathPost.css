@@ -29,3 +29,11 @@
     z-index: 1;
     mix-blend-mode: normal;
 }
+
+@media (max-width: 1200px) {
+  .math-container {
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
