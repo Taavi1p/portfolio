@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.7a573b64.css",
+    "main.css": "/static/css/main.08a2bd94.css",
     "main.js": "/static/js/main.32d022e5.js",
     "static/media/Exam 2, solution manual(2).pdf": "/static/media/Exam 2, solution manual(2).46ac1d2288fd662d2deb.pdf",
     "static/media/kt4.pdf": "/static/media/kt4.a5b671ddd48bdc6f727d.pdf",
@@ -78,11 +78,11 @@
     "static/media/spy.png": "/static/media/spy.06db92cc5ef6741e7005.png",
     "static/media/spy2.png": "/static/media/spy2.f6fce06705c3206863ad.png",
     "index.html": "/index.html",
-    "main.7a573b64.css.map": "/static/css/main.7a573b64.css.map",
+    "main.08a2bd94.css.map": "/static/css/main.08a2bd94.css.map",
     "main.32d022e5.js.map": "/static/js/main.32d022e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a573b64.css",
+    "static/css/main.08a2bd94.css",
     "static/js/main.32d022e5.js"
   ]
 }
