@@ -12,11 +12,12 @@ function Investing() {
       <div className="investing-page">
         <div className='investing-content'>
           <div className='header'>Positions</div>
+          <div className='stocks-container'>
           <InvestingElement stock="URNU" />
           <InvestingElement stock="RA7Z" />
           <InvestingElement stock="EXH9" />
           <InvestingElement stock="IQQH" />
-
+          </div>
         </div>
       </div>
     </PageWrapper>

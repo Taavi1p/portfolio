@@ -175,6 +175,12 @@
     justify-content: center; /* Centers horizontally */
     align-items: center; 
 }
+
+.nav-link:hover,
+.nav-link:hover::before {
+    transform: none !important;
+    box-shadow: none !important;
+}
 }
   
   .display-flex {
@@ -201,20 +207,5 @@
       transform: translateX(10px); /* Moves the image right */
     }
   }
-  
-  .octocat {
-    position: relative; 
-    width: 100px; /* Set the width of the image */
-    height: auto; /* Maintain aspect ratio */
-    z-index: 100; /* Make sure it's above other content */
-    animation: floatAnimation 2s ease-in-out infinite;
-    margin-left: auto;
-    margin-right: 20px;
-  }
-  
-  .octocat img {
-    width: 100%; /* Make image fill the div */
-    height: auto; /* Maintain aspect ratio */
-  }
-  
-  
+
+

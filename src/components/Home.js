@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import { Outlet, Link } from 'react-router-dom'
 import '../styles/Home.css';
-import octocat from '../images/octocat.png';
 import TypingAnimation from "./type"
 
 function Home() {
@@ -27,11 +26,6 @@ function Home() {
           <Link to="/Investing" className="nav-link">INVESTING</Link>
           <Link to="/Websites" className="nav-link">WEBSITES</Link>
           {/*<div onClick={() => window.open('https://m.youtube.com/@EvaristeGalois73', '_blank')} className="nav-link">YOUTUBE</div>*/}
-        </div>
-        <div class="octocat">
-          <a href="https://github.com/Taavi1p" target="_blank" rel="noopener noreferrer">
-            <img src={octocat} />
-          </a>
         </div>
       </section>
     </div>
