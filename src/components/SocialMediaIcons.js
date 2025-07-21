@@ -6,7 +6,7 @@ import '../styles/SocialMediaIcons.css'; // Import the CSS file
 const SocialMediaIcons = () => {
   return (
     <div className="icon-container">
-      <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="icon facebook">
+      <a href="https://www.facebook.com/taavitammarudeveloper" target="_blank" rel="noopener noreferrer" className="icon facebook">
         <FontAwesomeIcon icon={faFacebook} size="2x" />
       </a>
       <a href="https://bsky.app/profile/taavi1p.bsky.social" target="_blank" rel="noopener noreferrer" className="icon twitter">

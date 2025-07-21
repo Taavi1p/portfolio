@@ -3,9 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
   
-.soon-text {
-    color: white;
-    font-size: 50px;
-}
