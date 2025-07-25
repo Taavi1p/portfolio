@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0298675e.css",
-    "main.js": "/static/js/main.69d31c8c.js",
+    "main.css": "/static/css/main.fc636006.css",
+    "main.js": "/static/js/main.86c7525b.js",
     "static/media/Exam 2, solution manual(2).pdf": "/static/media/Exam 2, solution manual(2).46ac1d2288fd662d2deb.pdf",
     "static/media/kt4.pdf": "/static/media/kt4.a5b671ddd48bdc6f727d.pdf",
     "static/media/kt2.pdf": "/static/media/kt2.142bd3d34e47f67f70d4.pdf",
@@ -9,9 +9,11 @@
     "static/media/kt3.pdf": "/static/media/kt3.81c1856bc63a21ed9546.pdf",
     "static/media/kt1.pdf": "/static/media/kt1.c23201ec505b685d3494.pdf",
     "static/media/KT_4.pdf": "/static/media/KT_4.999dd29e454326d05e4f.pdf",
+    "static/media/bachelors_thesis.pdf": "/static/media/bachelors_thesis.3e294e6ff512c3d98b3c.pdf",
     "static/media/KT_3.pdf": "/static/media/KT_3.41cd2be8673c93433f10.pdf",
     "static/media/KT_1.pdf": "/static/media/KT_1.0584c1d16919b5bc5171.pdf",
     "static/media/KT_6.pdf": "/static/media/KT_6.c66909f56559680410aa.pdf",
+    "static/media/thesis_presentation.pdf": "/static/media/thesis_presentation.1d71f2ae6cb603541818.pdf",
     "static/media/KT_7.pdf": "/static/media/KT_7.883d32ac5e810575f14e.pdf",
     "static/media/5.4.pdf": "/static/media/5.4.43c81c19b67773b5a98f.pdf",
     "static/media/Rubric_R2_2022-2023b.pdf": "/static/media/Rubric_R2_2022-2023b.7d01c1f25e31c454daf4.pdf",
@@ -78,11 +80,11 @@
     "static/media/spy.png": "/static/media/spy.06db92cc5ef6741e7005.png",
     "static/media/spy2.png": "/static/media/spy2.f6fce06705c3206863ad.png",
     "index.html": "/index.html",
-    "main.0298675e.css.map": "/static/css/main.0298675e.css.map",
-    "main.69d31c8c.js.map": "/static/js/main.69d31c8c.js.map"
+    "main.fc636006.css.map": "/static/css/main.fc636006.css.map",
+    "main.86c7525b.js.map": "/static/js/main.86c7525b.js.map"
   },
   "entrypoints": [
-    "static/css/main.0298675e.css",
-    "static/js/main.69d31c8c.js"
+    "static/css/main.fc636006.css",
+    "static/js/main.86c7525b.js"
   ]
 }
