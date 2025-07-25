@@ -95,6 +95,10 @@ import PDF65 from "../images/physics/Year_3/matfüs/KT_3.pdf"
 import PDF66 from "../images/physics/Year_3/matfüs/KT_4.pdf"
 import PDF67 from "../images/physics/Year_3/matfüs/eksam.pdf"
 
+//bakatöö
+import PDF68 from "../images/physics/thesis/bachelors_thesis.pdf"
+import PDF69 from "../images/physics/thesis/thesis_presentation.pdf"  
+
 function Physics() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -103,6 +107,17 @@ function Physics() {
     <PageWrapper>
     <div className="physics-page">
       <div className="physics-content">
+        <PhysicsYear 
+          header="BACHELOR'S THESIS" 
+          content={
+          <><div className='thesis-content'>
+              <div className='thesis-text'>Siseelektronide seoseenergiate arvutamine pinnastruktuurides koguenergiate vahe meetodiga TiO2 näitel</div>
+              <PdfLink url={PDF68} text="thesis draft (est)" />
+              <PdfLink url={PDF69} text="thesis presentation (eng)" />
+            </div>
+          </>
+          }
+        ></PhysicsYear>
       <PhysicsYear 
           header="PHYSICS BA YEAR 3 - TÜ" 
           content={
