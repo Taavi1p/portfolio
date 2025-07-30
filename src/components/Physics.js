@@ -111,7 +111,7 @@ function Physics() {
           header="BACHELOR'S THESIS" 
           content={
           <><div className='thesis-content'>
-              <div className='thesis-text'>Siseelektronide seoseenergiate arvutamine pinnastruktuurides koguenergiate vahe meetodiga TiO2 näitel</div>
+              <div className='thesis-text'>Siseelektronide seoseenergiate arvutamine pinnastruktuurides</div>
               <PdfLink url={PDF68} text="thesis draft (est)" />
               <PdfLink url={PDF69} text="thesis presentation (eng)" />
             </div>

@@ -3,11 +3,16 @@
     margin-right: auto;
     padding: 20px;
     max-width: 1000px;
-    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+     border-radius: 24px; /* Rounded edges */
+    background: rgba(255, 255, 255, 0.13); /* Semi-transparent glass */
     backdrop-filter: blur(10px); /* Frosted glass effect */
-    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
-    border-radius: 15px; /* Rounded corners */
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    border: 1.5px solid rgba(255, 255, 255, 0.22); /* Subtle glass border */
+    box-shadow:
+        0 6px 32px rgba(0, 0, 0, 0.18), /* Soft outer shadow for depth */
+        0 0 0 6px rgba(255,255,255,0.08) inset, /* Inner glow for glass edge */
+        0 2px 12px 0 rgba(255,255,255,0.15) inset; /* Subtle inner highlight */
+    position: relative;
+    overflow: hidden;
 }
 
 .title {
