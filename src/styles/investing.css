@@ -1,9 +1,9 @@
 .investing-page {
   padding-top: 100px;
   height: 100vh;
-  align-items: center;
     justify-content: center;
     box-sizing: border-box;
+    display: flex;
   }
 
   .investing-content {
@@ -24,9 +24,9 @@
     align-items: center;
     width: 100%;
     max-width: 850px;
-    padding: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
     border-radius: 24px; /* Rounded edges */
     background: rgba(255, 255, 255, 0.13); /* Semi-transparent glass */
     backdrop-filter: blur(10px); /* Frosted glass effect */
@@ -51,3 +51,14 @@
     z-index: 1;
     mix-blend-mode: lighten;
 }
+
+  @media (max-width: 800px) {
+    .investing-page {
+      width: 90vw;
+    }
+  .stocks-container {
+      padding: 30px;
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+  }
