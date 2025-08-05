@@ -13,7 +13,7 @@ function Coding() {
                 <div className="coding-content">
                     <div className='header'>Websites I've made</div>
                     <div className='websites-container'>
-                    <a href="https://taavi1p.github.io/energy-tracker/" target="_blank" className='link'>US energy producers website</a>
+                    <a href="https://taavi1p.github.io/energy-tracker/" target="_blank" className='link'>US energy</a>
                     <a href="https://taavi1p.github.io/portfolio/" target="_blank" className='link'>This one</a>
                 </div>
                 </div>

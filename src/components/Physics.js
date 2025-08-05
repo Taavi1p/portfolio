@@ -99,6 +99,12 @@ import PDF67 from "../images/physics/Year_3/matfüs/eksam.pdf"
 import PDF68 from "../images/physics/thesis/bachelors_thesis.pdf"
 import PDF69 from "../images/physics/thesis/thesis_presentation.pdf"  
 
+//termodünaamika
+import PDF70 from "../images/physics/Year_3/termo/konspekt.pdf"
+import PDF71 from "../images/physics/Year_3/termo/termo_kontrolltöö.pdf"
+import PDF72 from "../images/physics/Year_3/termo/SF_kontrolltöö.pdf"
+import PDF73 from "../images/physics/Year_3/termo/eksam.pdf"
+
 function Physics() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -122,6 +128,14 @@ function Physics() {
           header="PHYSICS BA YEAR 3 - TÜ" 
           content={
             <><PhysicsCourse
+              header="Termodünaamika ja statistiline füüsika"
+              content={<><p>Raske aine, halvad materjalid, halvasti õpetetud.</p>
+              <PdfLink url={PDF70} text="konspekt"/>
+              <PdfLink url={PDF71} text="termo_KT"/>
+              <PdfLink url={PDF72} text="stat_KT"/>
+              <PdfLink url={PDF73} text="eksam"/></>
+              } />
+            <PhysicsCourse
               header="Kompuuterfüüsika"
               content={<><p>Lahe aine, aga mitte väga tõsine.</p>
               <PdfLink url={PDF1} text="Kodutöö 1" />

@@ -1,9 +1,16 @@
 .blog-page {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 100px;
 }
   
+.link {
+    color: grey !important;
+    text-decoration: none !important;
+    font-size: 1.2rem !important;
+}
