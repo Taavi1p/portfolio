@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6a66735e.css",
-    "main.js": "/static/js/main.8b2a7ce7.js",
+    "main.css": "/static/css/main.26374fb7.css",
+    "main.js": "/static/js/main.ffa346f4.js",
     "static/media/Exam 2, solution manual(2).pdf": "/static/media/Exam 2, solution manual(2).46ac1d2288fd662d2deb.pdf",
     "static/media/kt4.pdf": "/static/media/kt4.a5b671ddd48bdc6f727d.pdf",
     "static/media/kt2.pdf": "/static/media/kt2.142bd3d34e47f67f70d4.pdf",
@@ -42,8 +42,10 @@
     "static/media/MD_homework_Taavi.pdf": "/static/media/MD_homework_Taavi.3b066cdfc5ad0e89a313.pdf",
     "static/media/exam_M1.pdf": "/static/media/exam_M1.85f7d8b38c34f288e63f.pdf",
     "static/media/Taavi-modified.jpg": "/static/media/Taavi-modified.85348a1512c55560a3a5.jpg",
+    "static/media/konspekt.pdf": "/static/media/konspekt.6098e92e1b6f7de01e60.pdf",
     "static/media/LSC.pdf": "/static/media/LSC.a6e12bb57c1202942910.pdf",
     "static/media/7.2.pdf": "/static/media/7.2.d7625f09ea0e52a102ab.pdf",
+    "static/media/eksam.pdf": "/static/media/eksam.62759305e1d9ac1ff242.pdf",
     "static/media/homework_2.pdf": "/static/media/homework_2.c0857b039f8bd022eb17.pdf",
     "static/media/answers_6.pdf": "/static/media/answers_6.af5dbfaf36da17fbea5a.pdf",
     "static/media/Alfaspektromeetria.pdf": "/static/media/Alfaspektromeetria.f2774199554b3ec5574d.pdf",
@@ -65,26 +67,27 @@
     "static/media/kontrolltöö_1.pdf": "/static/media/kontrolltöö_1.26e87e50d06ef66b67d4.pdf",
     "static/media/Exam 1_2021-2022-solutions.pdf": "/static/media/Exam 1_2021-2022-solutions.71c1c7dbf80ef8dae302.pdf",
     "static/media/low_averge.png": "/static/media/low_averge.955c8726056e41e33bf2.png",
+    "static/media/SF_kontrolltöö.pdf": "/static/media/SF_kontrolltöö.5e769028938aff957f4e.pdf",
     "static/media/Exam 1_2021-2022.pdf": "/static/media/Exam 1_2021-2022.95528b512351fbcc4c9b.pdf",
     "static/media/resume.pdf": "/static/media/resume.208ac47b01ce49f1ed9f.pdf",
     "static/media/MidtermExam.pdf": "/static/media/MidtermExam.a49435648f546482c83e.pdf",
     "static/media/FinalExam.pdf": "/static/media/FinalExam.43d92d4a7bc727a3370b.pdf",
     "static/media/ResitExam-Solutions.pdf": "/static/media/ResitExam-Solutions.6df9ccb63fa3a0dabef4.pdf",
+    "static/media/termo_kontrolltöö.pdf": "/static/media/termo_kontrolltöö.d71051c02261adf5a82e.pdf",
     "static/media/failing_average.png": "/static/media/failing_average.25ec4b38b9b84f5850a8.png",
     "static/media/ResitExam.pdf": "/static/media/ResitExam.1f2c07ec2ab7c07f1920.pdf",
     "static/media/boggle.png": "/static/media/boggle.b7aae75e25c2b4c49c1e.png",
     "static/media/eksam.jpg": "/static/media/eksam.e1c7ed1355aa2b6e7901.jpg",
     "static/media/octocat.png": "/static/media/octocat.d334b3c0a488f1ee9c72.png",
-    "static/media/eksam.pdf": "/static/media/eksam.62759305e1d9ac1ff242.pdf",
     "static/media/kontrolltöö_2.jpg": "/static/media/kontrolltöö_2.eed6bfaa7848a07e5d55.jpg",
     "static/media/spy.png": "/static/media/spy.06db92cc5ef6741e7005.png",
     "static/media/spy2.png": "/static/media/spy2.f6fce06705c3206863ad.png",
     "index.html": "/index.html",
-    "main.6a66735e.css.map": "/static/css/main.6a66735e.css.map",
-    "main.8b2a7ce7.js.map": "/static/js/main.8b2a7ce7.js.map"
+    "main.26374fb7.css.map": "/static/css/main.26374fb7.css.map",
+    "main.ffa346f4.js.map": "/static/js/main.ffa346f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a66735e.css",
-    "static/js/main.8b2a7ce7.js"
+    "static/css/main.26374fb7.css",
+    "static/js/main.ffa346f4.js"
   ]
 }
