@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import '../styles/coding.css';
+import styles from '../styles/coding.module.css';
 import PageWrapper from "./PageWrapper";
 import octocat from '../images/octocat.png';
 
@@ -9,17 +9,17 @@ function Coding() {
     }, []);
     return (
         <PageWrapper>
-            <div className="coding-page">
-                <div className="coding-content">
-                    <div className='header'>Websites I've made</div>
-                    <div className='websites-container'>
-                    <a href="https://taavi1p.github.io/energy-tracker/" target="_blank" className='link'>US energy</a>
-                    <a href="https://taavi1p.github.io/portfolio/" target="_blank" className='link'>This one</a>
-                </div>
+            <div className={styles.codingPage}>
+                <div className={styles.codingContent}>
+                    <div className="header">Websites I've made</div>
+                    <div className={styles.websitesContainer}>
+                        <a href="https://taavi1p.github.io/energy-tracker/" target="_blank" className={styles.link}>US energy</a>
+                        <a href="https://taavi1p.github.io/portfolio/" target="_blank" className={styles.link}>This one</a>
+                    </div>
                 </div>
             </div>
             {/* 
-            <div class="octocat">
+            <div className={styles.octocat}>
                 <a href="https://github.com/Taavi1p" target="_blank" rel="noopener noreferrer">
                     <img src={octocat} />
                 </a>

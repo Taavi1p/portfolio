@@ -1,4 +1,4 @@
-.coding-page {
+.codingPage {
   padding-top: 100px;
   min-height: 100vh;
   width: 100%;
@@ -6,7 +6,7 @@
   box-sizing: border-box;
   }
 
-  .coding-content {
+  .codingContent {
     margin-left:auto;
     margin-right: auto;
     border: 10px white;
@@ -19,11 +19,12 @@
     padding-right: 20px;
   }
 
-  .websites-container {
+  .websitesContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 850px;
+    min-width: 400px;
     padding: 82px;
     padding-top: 60px;
     padding-bottom: 40px;
@@ -40,7 +41,7 @@
     margin-top: 30px;
   }
 
-  .websites-container::before {
+  .websitesContainer::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -64,10 +65,27 @@
     margin-bottom: 20px;
   }
 
+
+  .websiteHeader {
+    font-size: 40px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .codingHeader {
+    font-size: 40px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+  }
+
   @media (max-width: 768px) {
-  .websites-container {
-    padding: 20px;
-    padding-top: 20px;
+  .websitesContainer {
+    padding: 100px;
+    padding-top: 30px;
     padding-bottom: 20px;
+    min-width: 100px;
   }
 }

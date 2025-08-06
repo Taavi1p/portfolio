@@ -1,12 +1,16 @@
 import React from 'react';
-import '../styles/blog.css';
+import '../styles/blog.module.css';
 import BlogPost from "./BlogPost";
 import PageWrapper from "./PageWrapper";
+import styles from '../styles/blog.module.css';
 
 function Blog() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <PageWrapper>
-      <div className="blog-page">
+      <div className={styles.blogPage}>
         <BlogPost
           title="Järgmised viis aastat"
           date="August 5, 2025"
@@ -37,22 +41,22 @@ function Blog() {
               hetkel on nad ülesehituselt piiratud vastama momentaalselt, ilma pikemalt järgi mõtlemata. Samamoodi ka 
               kõige targema matemaatiku võimed oleksid oluliselt piiratud kui ta peaks ütlema esimese asja, mis pähe 
               tuleb. See on peagi muutumas, lähiajal antakse tehisaru süsteemidele võimalus kasutada arvutit kui 
-              tööriista ja teha pikaajalisi plaane, kasvatades nende võimeid märkimisväärselt <a href="https://arxiv.org/abs/2407.10031" target='blank' className="link">[4]</a>.
+              tööriista ja teha pikaajalisi plaane, kasvatades nende võimeid märkimisväärselt <a href="https://arxiv.org/abs/2407.10031" target="blank" className={styles.link}>[4]</a>.
             </p>,
              <p key="p5">
               On ette näha, et kõige võimsama tehisaru arendamine muutub lähiajal paratamatult riiklikuks projektiks, kui 
               see juba praegu nii pole. Tehisaru rakendamine annab igale riigile vaieldamatu sõjalise eelise, seetõttu 
-              võtavad peagi nii USA kui ka Hiina riiklikud asutused võimekaima tehisaru arendamise enda kätte <a href="https://situational-awareness.ai/" target='blank' className="link">[1]</a>. Tekib 
+              võtavad peagi nii USA kui ka Hiina riiklikud asutused võimekaima tehisaru arendamise enda kätte <a href="https://situational-awareness.ai/" target='blank' className={styles.link}>[1]</a>. Tekib 
               olukord, kus maailmas on kaks peamist tehisaru, kes on teistest peajagu üle ja dikteerivad kogu inimkonna 
               tuleviku.
             </p>,
              <p key="p6">
               Inimestest igas aspektis targem tehisaru tundub olevat lähem tulevik kui arvata võiks. Ekspertide hinnangul 
-              jõuame üliinimliku tehisaruni vahemikus aastal 2027 kuni 2035 <a href="https://situational-awareness.ai/" target='blank' className="link">[1]</a><a href="https://ai-2027.com/
-" target='blank' className="link">[3]</a>. See hinnang võib tunduda liiga äkiline, 
-              ent tuleneb faktist, et tehisaru võimekus kasvab kõigi ootuste kohaselt eksponentsiaalselt. On tõestatud, et 
+              jõuame üliinimliku tehisaruni vahemikus aastal 2027 kuni 2035 <a href="https://situational-awareness.ai/"  
+              target='blank' className={styles.link}>[1]</a><a href="https://ai-2027.com/" target='blank' className={styles.link}>[3]</a>. 
+              See hinnang võib tunduda liiga äkiline, ent tuleneb faktist, et tehisaru võimekus kasvab kõigi ootuste kohaselt eksponentsiaalselt. On tõestatud, et 
               hetke olukorrast üliinimliku tehisaruni jõudmine ei vaja enam ühtegi algoritmilist läbimurret, vaja on üksnes 
-              suurendada tehisaru treenimise mastaapi <a href="https://situational-awareness.ai/" target='blank' className="link">[1]</a>.
+              suurendada tehisaru treenimise mastaapi <a href="https://situational-awareness.ai/" target='blank' className={styles.link}>[1]</a>.
 
             </p>,
              <p key="p7">
@@ -72,7 +76,7 @@ function Blog() {
             </p>,
             <p key="p9">
               Tahest tahtmata  meie inimestena kaotame mingi hetk tehisaru üle kontrolli. Tekitab muret, et juba praegu ei 
-              oska me tehisaru süsteeme täielikult inimeste huvide järgi joondada <a href="https://arxiv.org/abs/2412.14093" target='blank' className="link">[2]</a>. Lisaks on olukorda siiamaani 
+              oska me tehisaru süsteeme täielikult inimeste huvide järgi joondada <a href="https://arxiv.org/abs/2412.14093" target='blank' className={styles.link}>[2]</a>. Lisaks on olukorda siiamaani 
               lihtsustanud see, et inimestel on võimalus vaadata, mida tehisintellekt töö käigus mõtleb, ja anda sellele 
               tagasisidet. Tulevikus raskendab asjaolu see, et peagi muutuvad tehisaru mõtted meie jaoks nii komplekseks, et 
               inimestel ei ole enam võimalik hinnata, kas tehisaru lahendab mingit ülesannet meile eetilisel viisil või 

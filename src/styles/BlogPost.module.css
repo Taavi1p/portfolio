@@ -37,6 +37,12 @@
   margin-bottom: 1rem;
 }
 
+.link {
+    color: grey !important;
+    text-decoration: none !important;
+    font-size: 1.2rem !important;
+}
+
 
   @media (max-width: 768px) {
     .title {

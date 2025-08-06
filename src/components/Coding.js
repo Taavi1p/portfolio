@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import '../styles/coding.css';
+import styles from '../styles/coding.module.css';
 import MobileGame from "./MobileGame.js"
 import PIC1 from "../images/spy.png"
 import PIC2 from "../images/spy2.png"
@@ -12,36 +12,36 @@ function Coding() {
   }, []);
   return (
     <PageWrapper>
-    <div className="coding-page">
-      <div className="coding-content">
-       <div className='header'>Mobile games I've made</div>
-       <div className='mobile-apps'>
-       <MobileGame 
-         appName="Spyfall"
-         appImage={PIC1}
-         appStoreLink="https://apps.apple.com/ee/app/spyfall-new-mission/id1485179809"
-         googlePlayLink="https://play.google.com/store/apps/details?hl=en_US&id=com.taavi.spyfall"
-         githubLink="https://github.com/Taavi1p/spyfall"
-       />
-       <MobileGame 
-         appName="Spyfall Countries"
-         appImage={PIC2}
-         appStoreLink="https://apps.apple.com/ee/app/spyfall-new-mission/id1485179809"
-         googlePlayLink="https://play.google.com/store/apps/details?hl=en_US&id=com.taavi.spyfall"
-         githubLink="https://github.com/Taavi1p/spyfall-countries"
-       />
-       <MobileGame 
-         appName="Boggle Go"
-         appImage={PIC3}
-         appStoreLink="https://apps.apple.com/us/app/id1488800386"
-         googlePlayLink="https://play.google.com/store/apps/details?hl=en_US&id=co.boggle.go"
-         githubLink="https://github.com/Taavi1p/boggle"
-       />
+      <div className={styles.codingPage}>
+        <div className={styles.codingContent}>
+          <div className={styles.codingHeader}>Mobile games I've made</div>
+          <div className={styles.mobileApps}>
+            <MobileGame 
+              appName="Spyfall"
+              appImage={PIC1}
+              appStoreLink="https://apps.apple.com/ee/app/spyfall-new-mission/id1485179809"
+              googlePlayLink="https://play.google.com/store/apps/details?hl=en_US&id=com.taavi.spyfall"
+              githubLink="https://github.com/Taavi1p/spyfall"
+            />
+            <MobileGame 
+              appName="Spyfall Countries"
+              appImage={PIC2}
+              appStoreLink="https://apps.apple.com/ee/app/spyfall-new-mission/id1485179809"
+              googlePlayLink="https://play.google.com/store/apps/details?hl=en_US&id=com.taavi.spyfall"
+              githubLink="https://github.com/Taavi1p/spyfall-countries"
+            />
+            <MobileGame 
+              appName="Boggle Go"
+              appImage={PIC3}
+              appStoreLink="https://apps.apple.com/us/app/id1488800386"
+              googlePlayLink="https://play.google.com/store/apps/details?hl=en_US&id=co.boggle.go"
+              githubLink="https://github.com/Taavi1p/boggle"
+            />
+          </div>
         </div>
       </div>
-    </div>
     </PageWrapper>
-);
+  );
 }
 
 export default Coding;

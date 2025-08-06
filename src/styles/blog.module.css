@@ -1,4 +1,4 @@
-.blog-page {
+.blogPage {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,13 @@
 }
   
 .link {
-    color: grey !important;
+    color: grey;
     text-decoration: none !important;
     font-size: 1.2rem !important;
+}
+
+ @media (max-width: 768px) {
+    .blogPage {
+        padding-top: 30px;
+    }
 }
