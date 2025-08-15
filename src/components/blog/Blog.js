@@ -1,8 +1,8 @@
 import React from 'react';
-import '../styles/blog.module.css';
+import './blog.module.css';
 import BlogPost from "./BlogPost";
-import PageWrapper from "./PageWrapper";
-import styles from '../styles/blog.module.css';
+import PageWrapper from "../common/page-wrapper/PageWrapper.js";
+import styles from './blog.module.css';
 
 function Blog() {
   React.useEffect(() => {

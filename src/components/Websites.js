@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import styles from '../styles/coding.module.css';
-import PageWrapper from "./PageWrapper";
+import PageWrapper from "./common/page-wrapper/PageWrapper.js";
 import octocat from '../images/octocat.png';
 
 function Coding() {

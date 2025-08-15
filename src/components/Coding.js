@@ -4,7 +4,7 @@ import MobileGame from "./MobileGame.js"
 import PIC1 from "../images/spy.png"
 import PIC2 from "../images/spy2.png"
 import PIC3 from "../images/boggle.png"
-import PageWrapper from "./PageWrapper";
+import PageWrapper from "./common/page-wrapper/PageWrapper.js";
 
 function Coding() {
   useEffect(() => {

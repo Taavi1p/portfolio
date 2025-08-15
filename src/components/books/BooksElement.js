@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/booksElement.css';
+import './booksElement.css';
 
 const BooksElement = ({ title, author}) => {
   return (

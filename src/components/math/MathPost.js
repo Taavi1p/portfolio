@@ -1,6 +1,6 @@
 import React from 'react';
-import PdfLink from './PdfLink'; 
-import "../styles/MathPost.css"
+import PdfLink from '../common/pdf-link/PdfLink.js'; 
+import "./MathPost.css"
 
 const MathPost = ({ header, paragraph, pdfUrl, pdfText }) => {
   return (

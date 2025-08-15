@@ -1,7 +1,7 @@
 .background-image {
     position: relative;
     height: 100vh; /* Full viewport height */
-    background-image: url('../images/Taavi-modified.jpg'); /* Update with your image path */
+    background-image: url('../../images/Taavi-modified.jpg'); /* Update with your image path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

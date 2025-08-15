@@ -1,109 +1,109 @@
 import React, { useEffect } from 'react';
-import '../styles/physics.css';
+import './physics.css';
 import PhysicsYear from './PhysicsYear';
 import PhysicsCourse from './PhysicsCourse';
-import PdfLink from './PdfLink'; 
-import PageWrapper from "./PageWrapper";
+import PdfLink from '../common/pdf-link/PdfLink.js'; 
+import PageWrapper from "../common/page-wrapper/PageWrapper.js";
 
-import PDF1 from "../images/physics/Year_3/KF/MD_homework_Taavi.pdf"
-import PDF2 from "../images/physics/Year_3/KF/homework_2.pdf"
+import PDF1 from "../../images/physics/Year_3/KF/MD_homework_Taavi.pdf"
+import PDF2 from "../../images/physics/Year_3/KF/homework_2.pdf"
 
-import PDF3 from "../images/physics/Year_3/MF/kt2.pdf"
-import PDF4 from "../images/physics/Year_3/MF/kt3.pdf"
-import PDF5 from "../images/physics/Year_3/MF/kt4.pdf"
-import PDF6 from "../images/physics/Year_3/MF/kt5.pdf"
+import PDF3 from "../../images/physics/Year_3/MF/kt2.pdf"
+import PDF4 from "../../images/physics/Year_3/MF/kt3.pdf"
+import PDF5 from "../../images/physics/Year_3/MF/kt4.pdf"
+import PDF6 from "../../images/physics/Year_3/MF/kt5.pdf"
 
-import PDF7 from "../images/physics/Year_2/complex/kt1.pdf"
-import PDF8 from "../images/physics/Year_2/complex/kt2.pdf"
-import PDF9 from "../images/physics/Year_2/complex/kt3.pdf"
-import PDF10 from "../images/physics/Year_2/complex/kt4.pdf"
+import PDF7 from "../../images/physics/Year_2/complex/kt1.pdf"
+import PDF8 from "../../images/physics/Year_2/complex/kt2.pdf"
+import PDF9 from "../../images/physics/Year_2/complex/kt3.pdf"
+import PDF10 from "../../images/physics/Year_2/complex/kt4.pdf"
 
 //Calculus 1
-import PDF11 from "../images/physics/RUG/Calculus 1/final.pdf"
-import PDF12 from "../images/physics/RUG/Calculus 1/midterm.pdf"
+import PDF11 from "../../images/physics/RUG/Calculus 1/final.pdf"
+import PDF12 from "../../images/physics/RUG/Calculus 1/midterm.pdf"
 
 //Mechanics and relativity
-import PDF13 from "../images/physics/RUG/Relativity/Daan letter.png"
-import PDF14 from "../images/physics/RUG/Relativity/Exam 1_2021-2022-solutions.pdf"
-import PDF15 from "../images/physics/RUG/Relativity/Exam 1_2021-2022.pdf"
-import PDF16 from "../images/physics/RUG/Relativity/Exam 2_2021-2022.pdf"
-import PDF17 from "../images/physics/RUG/Relativity/Exam 2, solution manual(2).pdf"
-import PDF18 from "../images/physics/RUG/Relativity/failing_average.png"
-import PDF19 from "../images/physics/RUG/Relativity/grade problems.png"
-import PDF20 from "../images/physics/RUG/Relativity/low_averge.png"
-import PDF21 from "../images/physics/RUG/Relativity/M&R_R_Resit_Rubric_2022-2023.pdf"
-import PDF22 from "../images/physics/RUG/Relativity/M&R_R3_rubric.pdf"
-import PDF23 from "../images/physics/RUG/Relativity/R1 2022-23.pdf"
-import PDF24 from "../images/physics/RUG/Relativity/Rubric_R2_2022-2023b.pdf"
+import PDF13 from "../../images/physics/RUG/Relativity/Daan letter.png"
+import PDF14 from "../../images/physics/RUG/Relativity/Exam 1_2021-2022-solutions.pdf"
+import PDF15 from "../../images/physics/RUG/Relativity/Exam 1_2021-2022.pdf"
+import PDF16 from "../../images/physics/RUG/Relativity/Exam 2_2021-2022.pdf"
+import PDF17 from "../../images/physics/RUG/Relativity/Exam 2, solution manual(2).pdf"
+import PDF18 from "../../images/physics/RUG/Relativity/failing_average.png"
+import PDF19 from "../../images/physics/RUG/Relativity/grade problems.png"
+import PDF20 from "../../images/physics/RUG/Relativity/low_averge.png"
+import PDF21 from "../../images/physics/RUG/Relativity/M&R_R_Resit_Rubric_2022-2023.pdf"
+import PDF22 from "../../images/physics/RUG/Relativity/M&R_R3_rubric.pdf"
+import PDF23 from "../../images/physics/RUG/Relativity/R1 2022-23.pdf"
+import PDF24 from "../../images/physics/RUG/Relativity/Rubric_R2_2022-2023b.pdf"
 
 //mechanics
-import PDF25 from "../images/physics/RUG/Mechanics/exam_M1.pdf"
-import PDF26 from "../images/physics/RUG/Mechanics/exam_M2.pdf"
-import PDF27 from "../images/physics/RUG/Mechanics/exam_M3.pdf"
-import PDF28 from "../images/physics/RUG/Mechanics/resit.pdf"
+import PDF25 from "../../images/physics/RUG/Mechanics/exam_M1.pdf"
+import PDF26 from "../../images/physics/RUG/Mechanics/exam_M2.pdf"
+import PDF27 from "../../images/physics/RUG/Mechanics/exam_M3.pdf"
+import PDF28 from "../../images/physics/RUG/Mechanics/resit.pdf"
 
-//calculus 2
-import PDF29 from "../images/physics/RUG/Calculus 2/MidtermExam.pdf"
-import PDF30 from "../images/physics/RUG/Calculus 2/FinalExam.pdf"
-import PDF31 from "../images/physics/RUG/Calculus 2/ResitExam.pdf"
-import PDF32 from "../images/physics/RUG/Calculus 2/ResitExam-Solutions.pdf"
+//calculus 2../
+import PDF29 from "../../images/physics/RUG/Calculus 2/MidtermExam.pdf"
+import PDF30 from "../../images/physics/RUG/Calculus 2/FinalExam.pdf"
+import PDF31 from "../../images/physics/RUG/Calculus 2/ResitExam.pdf"
+import PDF32 from "../../images/physics/RUG/Calculus 2/ResitExam-Solutions.pdf"
 
-//Linear algebra
-import PDF33 from "../images/physics/RUG/Linear algebra/midterm.pdf"
-import PDF34 from "../images/physics/RUG/Linear algebra/final.pdf"
-import PDF35 from "../images/physics/RUG/Linear algebra/mock_midterm.pdf"
-import PDF36 from "../images/physics/RUG/Linear algebra/mock_final.pdf"
+//Linear algebra../
+import PDF33 from "../../images/physics/RUG/Linear algebra/midterm.pdf"
+import PDF34 from "../../images/physics/RUG/Linear algebra/final.pdf"
+import PDF35 from "../../images/physics/RUG/Linear algebra/mock_midterm.pdf"
+import PDF36 from "../../images/physics/RUG/Linear algebra/mock_final.pdf"
 
-//em
-import PDF37 from "../images/physics/RUG/EM/test_1.pdf"
-import PDF38 from "../images/physics/RUG/EM/test_2.pdf"
-import PDF39 from "../images/physics/RUG/EM/test_3.pdf"
-import PDF40 from "../images/physics/RUG/EM/answers_5.pdf"
-import PDF41 from "../images/physics/RUG/EM/answers_6.pdf"
-import PDF42 from "../images/physics/RUG/EM/answers_2.pdf"
+//em../
+import PDF37 from "../../images/physics/RUG/EM/test_1.pdf"
+import PDF38 from "../../images/physics/RUG/EM/test_2.pdf"
+import PDF39 from "../../images/physics/RUG/EM/test_3.pdf"
+import PDF40 from "../../images/physics/RUG/EM/answers_5.pdf"
+import PDF41 from "../../images/physics/RUG/EM/answers_6.pdf"
+import PDF42 from "../../images/physics/RUG/EM/answers_2.pdf"
 
-//optika labor
-import PDF43 from "../images/physics/Year_2/labor/1.2.pdf"
-import PDF44 from "../images/physics/Year_2/labor/2.1.pdf"
-import PDF45 from "../images/physics/Year_2/labor/4.1.pdf"
-import PDF46 from "../images/physics/Year_2/labor/5.4.pdf"
-import PDF47 from "../images/physics/Year_2/labor/6.1.pdf"
-import PDF48 from "../images/physics/Year_2/labor/7.2.pdf"
-import PDF49 from "../images/physics/Year_2/labor/8.4.pdf"
+//optika labor../
+import PDF43 from "../../images/physics/Year_2/labor/1.2.pdf"
+import PDF44 from "../../images/physics/Year_2/labor/2.1.pdf"
+import PDF45 from "../../images/physics/Year_2/labor/4.1.pdf"
+import PDF46 from "../../images/physics/Year_2/labor/5.4.pdf"
+import PDF47 from "../../images/physics/Year_2/labor/6.1.pdf"
+import PDF48 from "../../images/physics/Year_2/labor/7.2.pdf"
+import PDF49 from "../../images/physics/Year_2/labor/8.4.pdf"
 
-//kvant
-import PDF50 from "../images/physics/Year_3/kvant/KT_1.pdf"
-import PDF51 from "../images/physics/Year_3/kvant/KT_2.pdf"
-import PDF52 from "../images/physics/Year_3/kvant/KT_3.pdf"
-import PDF53 from "../images/physics/Year_3/kvant/KT_4.pdf"
-import PDF54 from "../images/physics/Year_3/kvant/KT_5.pdf"
-import PDF55 from "../images/physics/Year_3/kvant/KT_6.pdf"
-import PDF56 from "../images/physics/Year_3/kvant/KT_7.pdf"
-import PDF57 from "../images/physics/Year_3/kvant/kontrolltöö_1.pdf"
-import PDF58 from "../images/physics/Year_3/kvant/kontrolltöö_2.jpg"
-import PDF59 from "../images/physics/Year_3/kvant/eksam.jpg"
+//kvant../
+import PDF50 from "../../images/physics/Year_3/kvant/KT_1.pdf"
+import PDF51 from "../../images/physics/Year_3/kvant/KT_2.pdf"
+import PDF52 from "../../images/physics/Year_3/kvant/KT_3.pdf"
+import PDF53 from "../../images/physics/Year_3/kvant/KT_4.pdf"
+import PDF54 from "../../images/physics/Year_3/kvant/KT_5.pdf"
+import PDF55 from "../../images/physics/Year_3/kvant/KT_6.pdf"
+import PDF56 from "../../images/physics/Year_3/kvant/KT_7.pdf"
+import PDF57 from "../../images/physics/Year_3/kvant/kontrolltöö_1.pdf"
+import PDF58 from "../../images/physics/Year_3/kvant/kontrolltöö_2.jpg"
+import PDF59 from "../../images/physics/Year_3/kvant/eksam.jpg"
 
-//tuum
-import PDF60 from "../images/physics/Year_3/tuum/Alfaspektromeetria.pdf"
-import PDF61 from "../images/physics/Year_3/tuum/Gammaspektromeetria.pdf"
-import PDF62 from "../images/physics/Year_3/tuum/Käsimõõteseadmed.pdf"
-import PDF63 from "../images/physics/Year_3/tuum/LSC.pdf"
-import PDF64 from "../images/physics/Year_3/tuum/Modelleerimine.pdf"
+//tuum../
+import PDF60 from "../../images/physics/Year_3/tuum/Alfaspektromeetria.pdf"
+import PDF61 from "../../images/physics/Year_3/tuum/Gammaspektromeetria.pdf"
+import PDF62 from "../../images/physics/Year_3/tuum/Käsimõõteseadmed.pdf"
+import PDF63 from "../../images/physics/Year_3/tuum/LSC.pdf"
+import PDF64 from "../../images/physics/Year_3/tuum/Modelleerimine.pdf"
 
-//matfüs
-import PDF65 from "../images/physics/Year_3/matfüs/KT_3.pdf"
-import PDF66 from "../images/physics/Year_3/matfüs/KT_4.pdf"
-import PDF67 from "../images/physics/Year_3/matfüs/eksam.pdf"
+//matfüs../
+import PDF65 from "../../images/physics/Year_3/matfüs/KT_3.pdf"
+import PDF66 from "../../images/physics/Year_3/matfüs/KT_4.pdf"
+import PDF67 from "../../images/physics/Year_3/matfüs/eksam.pdf"
 
-//bakatöö
-import PDF68 from "../images/physics/thesis/bachelors_thesis.pdf"
-import PDF69 from "../images/physics/thesis/thesis_presentation.pdf"  
+//bakatöö../
+import PDF68 from "../../images/physics/thesis/bachelors_thesis.pdf"
+import PDF69 from "../../images/physics/thesis/thesis_presentation.pdf"  
 
-//termodünaamika
-import PDF70 from "../images/physics/Year_3/termo/konspekt.pdf"
-import PDF71 from "../images/physics/Year_3/termo/termo_kontrolltöö.pdf"
-import PDF72 from "../images/physics/Year_3/termo/SF_kontrolltöö.pdf"
-import PDF73 from "../images/physics/Year_3/termo/eksam.pdf"
+//termodünaamika../
+import PDF70 from "../../images/physics/Year_3/termo/konspekt.pdf"
+import PDF71 from "../../images/physics/Year_3/termo/termo_kontrolltöö.pdf"
+import PDF72 from "../../images/physics/Year_3/termo/SF_kontrolltöö.pdf"
+import PDF73 from "../../images/physics/Year_3/termo/eksam.pdf"
 
 function Physics() {
   useEffect(() => {

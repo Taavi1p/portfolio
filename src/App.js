@@ -2,14 +2,14 @@ import React from 'react';
 import './styles/App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import CV from "./components/cv";
-import Math from "./components/Math";
-import Physics from "./components/Physics";
-import Home from "./components/Home";
-import Blog from "./components/Blog";
+import Math from "./components/math/Math";
+import Physics from "./components/physics/Physics";
+import Home from "./components/landing-page/Home";
+import Blog from "./components/blog/Blog";
 import Socials from "./components/Socials";
 import Coding from "./components/Coding";
-import Books from "./components/Books";
-import Investing from "./components/Investing";
+import Books from "./components/books/Books";
+import Investing from "./components/investing/Investing";
 import Websites from "./components/Websites";
 
 

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import '../styles/books.css';
+import './books.css';
 import BooksElement from "./BooksElement"
-import PageWrapper from "./PageWrapper";
+import PageWrapper from "../common/page-wrapper/PageWrapper.js";
 
 function Books() {
   useEffect(() => {

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import '../styles/PhysicsYear.css'; // Assuming you have a CSS file for styling
+import './PhysicsCourse.css'; // Assuming you have a CSS file for styling
 
-const PhysicsYear = ({ header, content }) => {
+const PhysicsCourse = ({ header, content }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleExpand = () => {
@@ -10,13 +10,13 @@ const PhysicsYear = ({ header, content }) => {
   };
 
   return (
-    <div className="expandable-div">
-      <div className="physics-year-header" onClick={toggleExpand}>
+    <div className="expandable-div-course">
+      <div className="physics-course-header" onClick={toggleExpand}>
         <h2>{header}</h2>
         <span className="arrow">{isExpanded ? '▲' : '▼'}</span>
       </div>
       {isExpanded && (
-        <div className="physics-year-content">
+        <div className="physics-course-content">
           {content}
         </div>
       )}
@@ -24,9 +24,9 @@ const PhysicsYear = ({ header, content }) => {
   );
 };
 
-PhysicsYear.propTypes = {
+PhysicsCourse.propTypes = {
   header: PropTypes.string.isRequired,
   content: PropTypes.node.isRequired,
 };
 
-export default PhysicsYear;
+export default PhysicsCourse;

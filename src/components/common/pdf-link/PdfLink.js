@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/PdfLink.css';
+import './PdfLink.css';
 
 const PdfLink = ({ url, text }) => {
   return (

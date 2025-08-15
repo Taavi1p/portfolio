@@ -2,8 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import { Outlet, Link } from 'react-router-dom'
-import '../styles/Home.css';
-import TypingAnimation from "./type"
+import './Home.css';
+import TypingAnimation from "../type"
 
 function Home() {
   return (

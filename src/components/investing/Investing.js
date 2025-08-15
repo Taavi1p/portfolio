@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import '../styles/investing.css';
+import './investing.css';
 import InvestingElement from './InvestingElement';
-import PageWrapper from "./PageWrapper";
+import PageWrapper from "../common/page-wrapper/PageWrapper.js";
 
 function Investing() {
   useEffect(() => {

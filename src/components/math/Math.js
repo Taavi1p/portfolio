@@ -1,15 +1,15 @@
 import React, { useEffect } from 'react';
-import '../styles/math.css';
-import galoisPic from "../images/galois.jpg";
+import './math.css';
+import galoisPic from "../../images/galois.jpg";
 import MathPost from "./MathPost"
-import PDF1 from '../images/spring24.pdf';
-import PDF2 from '../images/tumo24.pdf';
-import PDF3 from '../images/riigieksam.pdf';
-import PDF4 from '../images/matlah_2021_22_yl_lahendused_hindamisskeemid_talv.pdf';
-import PDF5 from '../images/lvs2021.pdf';
-import PDF6 from '../images/lvt2017.pdf';
-import PDF7 from '../images/lvs2017.pdf';
-import PageWrapper from "./PageWrapper";
+import PDF1 from '../../images/spring24.pdf';
+import PDF2 from '../../images/tumo24.pdf';
+import PDF3 from '../../images/riigieksam.pdf';
+import PDF4 from '../../images/matlah_2021_22_yl_lahendused_hindamisskeemid_talv.pdf';
+import PDF5 from '../../images/lvs2021.pdf';
+import PDF6 from '../../images/lvt2017.pdf';
+import PDF7 from '../../images/lvs2017.pdf';
+import PageWrapper from "../common/page-wrapper/PageWrapper.js";
 
 
 function Math() {
