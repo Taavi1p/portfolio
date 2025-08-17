@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/MobileGame.css';
+import './MobileGame.css';
 
 const MobileGame = ({ appName, appImage, appStoreLink, googlePlayLink, githubLink }) => {
   return (

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import styles from '../styles/coding.module.css';
-import PageWrapper from "./common/page-wrapper/PageWrapper.js";
-import octocat from '../images/octocat.png';
+import styles from './websites.module.css';
+import PageWrapper from "../common/page-wrapper/PageWrapper.js";
+import octocat from '../../images/octocat.png';
 
 function Coding() {
     useEffect(() => {
@@ -13,8 +13,8 @@ function Coding() {
                 <div className={styles.codingContent}>
                     <div className="header">Websites I've made</div>
                     <div className={styles.websitesContainer}>
-                        <a href="https://taavi1p.github.io/energy-tracker/" target="_blank" className={styles.link}>US energy</a>
-                        <a href="https://taavi1p.github.io/portfolio/" target="_blank" className={styles.link}>This one</a>
+                        <a href="https://electricitygen.com" target="_blank" className={styles.link}>electricitygen.com</a>
+                        <a href="https://tammaru.ee" target="_blank" className={styles.link}>tammaru.ee</a>
                     </div>
                 </div>
             </div>

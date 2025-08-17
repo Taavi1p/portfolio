@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import './investing.css';
 import InvestingElement from './InvestingElement';
 import PageWrapper from "../common/page-wrapper/PageWrapper.js";
+import PercentageChange from "./percentageticker.js";
+
 
 function Investing() {
   useEffect(() => {
@@ -14,6 +16,7 @@ function Investing() {
           <div className='header'>Positions</div>
           <div className='stocks-container'>
           <InvestingElement stock="URNU" />
+          <PercentageChange ticker="AAPL" buyPrice={150} />
           <InvestingElement stock="RA7Z" />
           <InvestingElement stock="EXH9" />
           <InvestingElement stock="IQQH" />

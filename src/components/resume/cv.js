@@ -1,9 +1,9 @@
 import React from 'react';
-import '../styles/cv.css';
-import resumeImage from '../images/resume.jpg';
-import PDF1 from '../images/resume.pdf';
-import PdfLink from './common/pdf-link/PdfLink.js';
-import PageWrapper from "./common/page-wrapper/PageWrapper.js";
+import './cv.css';
+import resumeImage from '../../images/resume.jpg';
+import PDF1 from '../../images/resume.pdf';
+import PdfLink from '../common/pdf-link/PdfLink.js';
+import PageWrapper from "../common/page-wrapper/PageWrapper.js";
 
 
 const ResumePage = () => {

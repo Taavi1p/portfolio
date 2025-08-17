@@ -1,6 +1,6 @@
 import React from 'react';
 import { ReactTyped } from "react-typed";
-import '../styles/type.css';
+import './type.css';
 
 const TypingAnimation = () => {
   return (

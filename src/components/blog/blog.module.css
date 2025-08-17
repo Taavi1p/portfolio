@@ -15,6 +15,20 @@
     font-size: 1.2rem !important;
 }
 
+.webisteLink {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+.BlogsContainer {
+    display: flex;
+    flex-direction: column;
+    /*for some reason this calss isnt accessed*/
+}
+
  @media (max-width: 768px) {
     .blogPage {
         padding-top: 30px;

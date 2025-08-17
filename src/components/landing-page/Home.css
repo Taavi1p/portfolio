@@ -26,7 +26,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
   }
   
   .navigation-links {
@@ -100,11 +102,14 @@
   @media (max-width: 1400px) {
 
     .second-page {
-      min-height: 100%
+      min-height: 100%;
+      padding-top: 30px;
+      padding-bottom: 30px;
     }
     .nav-link {
       height: 140px;
       width: 300px;
+      border-radius: 5px;
     }
     .navigation-links {
       gap: 10px;
@@ -137,8 +142,8 @@
   /* Media queries for mobile devices */
   @media (max-width: 1050px) {
     .background-image {
-        height: 100vh; /* Adjust height or other properties as needed */
-        padding: 20px; /* Add padding for smaller screens */
+        height: 100vh;
+        padding: 20px; 
     }
     .navigation-links {
     display: flex;
@@ -148,7 +153,8 @@
     
     .content, .second-page {
         text-align: center;
-        padding: 10px; /* Adjust layout and spacing */
+        padding: 10px;
+        padding: 50px 30px;
     }
   
     .bounce {

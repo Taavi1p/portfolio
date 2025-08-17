@@ -1,16 +1,16 @@
 import React from 'react';
 import './styles/App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import CV from "./components/cv";
+import CV from "./components/resume/cv";
 import Math from "./components/math/Math";
 import Physics from "./components/physics/Physics";
 import Home from "./components/landing-page/Home";
 import Blog from "./components/blog/Blog";
 import Socials from "./components/Socials";
-import Coding from "./components/Coding";
+import Coding from "./components/mobile-games/Coding";
 import Books from "./components/books/Books";
 import Investing from "./components/investing/Investing";
-import Websites from "./components/Websites";
+import Websites from "./components/websites/Websites";
 
 
 
