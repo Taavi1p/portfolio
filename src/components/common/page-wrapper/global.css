@@ -1,5 +1,5 @@
 .page-wrapper {
-    background: linear-gradient(135deg, black, rgb(67, 67, 67)); /* Diagonal gradient */
+    background: black;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
