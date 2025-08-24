@@ -186,7 +186,7 @@
 .nav-link:hover::before {
     transform: none !important;
     box-shadow: none !important;
-    background: none !important;
+    color: rgb(17, 17, 17) !important;
     filter: none !important;
     color: inherit !important;
 }

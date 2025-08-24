@@ -84,9 +84,10 @@
 
   @media (max-width: 768px) {
   .websitesContainer {
-    padding: 100px;
+    padding: 0px;
     padding-top: 30px;
     padding-bottom: 20px;
-    min-width: 100px;
+    width: 100%;
+    min-width: unset;
   }
 }

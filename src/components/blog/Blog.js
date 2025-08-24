@@ -8,7 +8,6 @@ function Blog() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <PageWrapper>
       <div className={styles.blogPage}>
         <BlogPost
           title="Järgmised viis aastat"
@@ -109,7 +108,6 @@ function Blog() {
           ]}
         />
       </div>
-    </PageWrapper >
   );
 }
 

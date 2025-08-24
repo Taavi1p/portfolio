@@ -1,7 +1,41 @@
 import { useEffect, useRef, useState } from 'react';
 
+// Simple mobile detection hook
+function useIsMobile() {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 700);
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth <= 700);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+  return isMobile;
+}
+
+// Example mobile wrapper component
+const MobileWrapper = ({ children }) => (
+  <div style={{ position: 'relative', minHeight: '100vh', width: '100%', margin: 0, padding: 0 }}>
+    <div style={{
+      position: 'fixed',
+      background: 'linear-gradient(135deg, black, rgba(46, 46, 46, 1))',
+      inset: 0,
+      zIndex: 0,
+      }}
+      />    
+  <div style={{
+    minHeight: '100vh',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+  }}>
+    {children}
+  </div>
+  </div>
+);
+
 // Main component for the dynamic background
 const App = ({ children }) => {
+  const isMobile = useIsMobile();
   const canvasRef = useRef(null);
   const bubblesRef = useRef([]);
   const animationFrameId = useRef(null);
@@ -31,6 +65,7 @@ const App = ({ children }) => {
   }, []);
 
   useEffect(() => {
+    if (isMobile) return; // Skip canvas on mobile
     const canvas = canvasRef.current;
     if (!canvas) return;
 
@@ -160,7 +195,12 @@ const App = ({ children }) => {
     // Start the animation loop
     animate();
 
-  }, [windowDimensions.width, windowDimensions.height]);
+  }, [windowDimensions.width, windowDimensions.height, isMobile]);
+
+  // Render mobile or desktop version
+  if (isMobile) {
+    return <MobileWrapper>{children}</MobileWrapper>;
+  }
 
   return (
     <div style={{ position: 'relative', minHeight: '100vh', width: '100%', margin: 0, padding: 0 }}>
@@ -174,7 +214,7 @@ const App = ({ children }) => {
           height: '100vh',
           zIndex: 0,
           display: 'block',
-          background: 'linear-gradient(135deg, black, rgba(46, 46, 46, 1))', // Diagonal gradient
+          background: 'linear-gradient(135deg, black, rgba(46, 46, 46, 1))',
         }}
       />
       {/* Foreground content */}
