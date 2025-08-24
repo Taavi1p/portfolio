@@ -13,10 +13,11 @@
     flex-direction: column;
     width: fit-content;
     align-items: center;
+    position: relative;
   }
   
   .header {
-    margin-bottom: 100px;
+    margin-bottom: 70px;
   }
 
   .stocks-container {

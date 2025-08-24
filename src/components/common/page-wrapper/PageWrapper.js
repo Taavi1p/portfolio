@@ -168,17 +168,17 @@ const App = ({ children }) => {
       <canvas
         ref={canvasRef}
         style={{
-          position: 'absolute',
+          position: 'fixed',
           inset: 0,
           width: '100vw',
           height: '100vh',
           zIndex: 0,
           display: 'block',
+          background: 'linear-gradient(135deg, black, rgba(46, 46, 46, 1))', // Diagonal gradient
         }}
       />
       {/* Foreground content */}
       <div style={{
-        background: 'linear-gradient(135deg, black, rgb(67, 67, 67))', // Diagonal gradient
         minHeight: '100vh',
         display: 'flex',
         flexDirection: 'column',
