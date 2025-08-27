@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.986ccd7d.css",
-    "main.js": "/static/js/main.e852489b.js",
+    "main.css": "/static/css/main.43314588.css",
+    "main.js": "/static/js/main.b66171c5.js",
     "static/media/Exam 2, solution manual(2).pdf": "/static/media/Exam 2, solution manual(2).46ac1d2288fd662d2deb.pdf",
     "static/media/kt4.pdf": "/static/media/kt4.a5b671ddd48bdc6f727d.pdf",
     "static/media/kt2.pdf": "/static/media/kt2.142bd3d34e47f67f70d4.pdf",
@@ -10,14 +10,15 @@
     "static/media/kt1.pdf": "/static/media/kt1.c23201ec505b685d3494.pdf",
     "static/media/KT_4.pdf": "/static/media/KT_4.999dd29e454326d05e4f.pdf",
     "static/media/bachelors_thesis.pdf": "/static/media/bachelors_thesis.3e294e6ff512c3d98b3c.pdf",
-    "static/media/KT_3.pdf": "/static/media/KT_3.41cd2be8673c93433f10.pdf",
-    "static/media/KT_1.pdf": "/static/media/KT_1.0584c1d16919b5bc5171.pdf",
+    "static/media/KT_3.pdf": "/static/media/KT_3.141cf4327000fd70508b.pdf",
+    "static/media/KT_1.pdf": "/static/media/KT_1.5e5b7b3440bf3d32c248.pdf",
     "static/media/KT_6.pdf": "/static/media/KT_6.c66909f56559680410aa.pdf",
     "static/media/thesis_presentation.pdf": "/static/media/thesis_presentation.1d71f2ae6cb603541818.pdf",
+    "static/media/KT_5.pdf": "/static/media/KT_5.b07e4974c6aec3f0e598.pdf",
     "static/media/KT_7.pdf": "/static/media/KT_7.883d32ac5e810575f14e.pdf",
     "static/media/5.4.pdf": "/static/media/5.4.43c81c19b67773b5a98f.pdf",
     "static/media/Rubric_R2_2022-2023b.pdf": "/static/media/Rubric_R2_2022-2023b.7d01c1f25e31c454daf4.pdf",
-    "static/media/KT_2.pdf": "/static/media/KT_2.f162318a86ccfcbb0a1f.pdf",
+    "static/media/KT_2.pdf": "/static/media/KT_2.5b50a226b1abb5d89652.pdf",
     "static/media/8.4.pdf": "/static/media/8.4.12905e769ac1aa2b94de.pdf",
     "static/media/Gammaspektromeetria.pdf": "/static/media/Gammaspektromeetria.cd0aa1529840371a9407.pdf",
     "static/media/test_1.pdf": "/static/media/test_1.f45666955167bc75bd33.pdf",
@@ -25,12 +26,12 @@
     "static/media/kt5.pdf": "/static/media/kt5.d076548c2555d557ffcf.pdf",
     "static/media/answers_2.pdf": "/static/media/answers_2.fd7b21275272d1e7a5d6.pdf",
     "static/media/Exam 2_2021-2022.pdf": "/static/media/Exam 2_2021-2022.aaadbcf916374e112646.pdf",
-    "static/media/KT_5.pdf": "/static/media/KT_5.b07e4974c6aec3f0e598.pdf",
     "static/media/4.1.pdf": "/static/media/4.1.61c1685f3769a37ad79e.pdf",
     "static/media/6.1.pdf": "/static/media/6.1.cd13247838fe6fe0cbdd.pdf",
     "static/media/test_2.pdf": "/static/media/test_2.db0233c357876bb2db55.pdf",
     "static/media/test_3.pdf": "/static/media/test_3.f4d4bde848d45ac54e0c.pdf",
     "static/media/exam_M3.pdf": "/static/media/exam_M3.62df7b79aba3be35f27e.pdf",
+    "static/media/KT_3_1.pdf": "/static/media/KT_3_1.c62c8c89f4e84e145f49.pdf",
     "static/media/R1 2022-23.pdf": "/static/media/R1 2022-23.502e006520a279b2d56f.pdf",
     "static/media/resit.pdf": "/static/media/resit.f9df4d5db5a64498d221.pdf",
     "static/media/riigieksam.pdf": "/static/media/riigieksam.db0481ba0f329a7b8309.pdf",
@@ -73,6 +74,7 @@
     "static/media/MidtermExam.pdf": "/static/media/MidtermExam.a49435648f546482c83e.pdf",
     "static/media/FinalExam.pdf": "/static/media/FinalExam.43d92d4a7bc727a3370b.pdf",
     "static/media/ResitExam-Solutions.pdf": "/static/media/ResitExam-Solutions.6df9ccb63fa3a0dabef4.pdf",
+    "static/media/rühmatöö_asendus.pdf": "/static/media/rühmatöö_asendus.490abb22adf197f30817.pdf",
     "static/media/termo_kontrolltöö.pdf": "/static/media/termo_kontrolltöö.d71051c02261adf5a82e.pdf",
     "static/media/failing_average.png": "/static/media/failing_average.25ec4b38b9b84f5850a8.png",
     "static/media/ResitExam.pdf": "/static/media/ResitExam.1f2c07ec2ab7c07f1920.pdf",
@@ -83,11 +85,11 @@
     "static/media/spy.png": "/static/media/spy.06db92cc5ef6741e7005.png",
     "static/media/spy2.png": "/static/media/spy2.f6fce06705c3206863ad.png",
     "index.html": "/index.html",
-    "main.986ccd7d.css.map": "/static/css/main.986ccd7d.css.map",
-    "main.e852489b.js.map": "/static/js/main.e852489b.js.map"
+    "main.43314588.css.map": "/static/css/main.43314588.css.map",
+    "main.b66171c5.js.map": "/static/js/main.b66171c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.986ccd7d.css",
-    "static/js/main.e852489b.js"
+    "static/css/main.43314588.css",
+    "static/js/main.b66171c5.js"
   ]
 }
