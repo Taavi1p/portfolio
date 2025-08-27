@@ -1,20 +1,24 @@
 .blogPost {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
-    padding: 20px;
+    margin-top: 50px;
     width: 90%;
     max-width: 1000px;
-     border-radius: 24px; /* Rounded edges */
+     border-radius: 20px; /* Rounded edges */
     background: rgba(255, 255, 255, 0.13); /* Semi-transparent glass */
     backdrop-filter: blur(10px); /* Frosted glass effect */
-    border: 1.5px solid rgba(255, 255, 255, 0.22); /* Subtle glass border */
+    border: 0.7px solid rgba(255, 255, 255, 0.22); /* Subtle glass border */
     box-shadow:
-        0 6px 32px rgba(0, 0, 0, 0.18), /* Soft outer shadow for depth */
-        0 0 0 6px rgba(255,255,255,0.08) inset, /* Inner glow for glass edge */
-        0 2px 12px 0 rgba(255,255,255,0.15) inset; /* Subtle inner highlight */
+        0 6px 32px rgba(0, 0, 0, 0.18), 
+        0 0 0 3px rgba(255,255,255,0.08) inset,
+        0 1px 6px 0 rgba(255,255,255,0.15) inset; 
     position: relative;
     overflow: hidden;
+}
+
+.header {
+    cursor: pointer;
+    padding: 0px 20px 5px 20px;
 }
 
 .title {
@@ -22,6 +26,7 @@
     font-weight: bold;
     color: white;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Add depth to the text */
+    margin-bottom: 5px;
 }
 
 .content {
@@ -29,6 +34,7 @@
     color: white;
     line-height: 1.6;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); /* Subtle text shadow */
+    padding: 0px 20px;
 }
 
 .date {
@@ -44,8 +50,16 @@
     font-size: 1.2rem !important;
 }
 
+.arrow {
+    font-size: 1.5em;
+    color: #fff; /* Match the header text color */
+    margin-left: auto;
+    margin-right: 30px;
+  }
+
 
   @media (max-width: 768px) {
+
     .title {
         font-size: 1.5rem; /* Adjust title size for smaller screens */
     }
@@ -56,5 +70,8 @@
     .content i,
     .content a {
      font-size: 1rem !important; 
+    }
+    .arrow {
+        display: none;
     }
 }

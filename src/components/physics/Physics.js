@@ -105,6 +105,15 @@ import PDF71 from "../../images/physics/Year_3/termo/termo_kontrolltöö.pdf"
 import PDF72 from "../../images/physics/Year_3/termo/SF_kontrolltöö.pdf"
 import PDF73 from "../../images/physics/Year_3/termo/eksam.pdf"
 
+//analüütiline mehaanika../
+import PDF74 from "../../images/physics/Year_2/AM/KT_1.pdf"
+import PDF75 from "../../images/physics/Year_2/AM/KT_2.pdf"
+import PDF76 from "../../images/physics/Year_2/AM/KT_3.pdf"
+import PDF77 from "../../images/physics/Year_2/AM/KT_3_1.pdf"
+import PDF78 from "../../images/physics/Year_2/AM/KT_4.pdf"
+import PDF79 from "../../images/physics/Year_2/AM/KT_5.pdf"
+import PDF80 from "../../images/physics/Year_2/AM/rühmatöö_asendus.pdf"
+
 function Physics() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -147,7 +156,7 @@ function Physics() {
                   <PdfLink url={PDF3} text="Kodutöö 2" />
                   <PdfLink url={PDF4} text="Kodutöö 3" />
                   <PdfLink url={PDF5} text="Kodutöö 4" />
-                  <PdfLink url={PDF6 } text="Kodutöö 5" />
+                  <PdfLink url={PDF6} text="Kodutöö 5" />
                   </>
                 } />
                 <PhysicsCourse
@@ -218,7 +227,16 @@ function Physics() {
                 } />
                 <PhysicsCourse
                 header="Analüütiline mehaanika"
-                content={<p>Lahe teema, salidid ei ole mugavad õppematerjalid. peab ise materjale leidma, mida on tegelt palju.</p>} />
+                content={<><p>Lahe teema, salidid ei ole mugavad õppematerjalid. peab ise materjale leidma, mida on tegelt palju.</p>
+                  <PdfLink url={PDF74} text="KT_1" />
+                  <PdfLink url={PDF75} text="KT_2" />
+                  <PdfLink url={PDF76} text="KT_3" />
+                  <PdfLink url={PDF77} text="KT_3_1" />
+                  <PdfLink url={PDF78} text="KT_4" />
+                  <PdfLink url={PDF79} text="KT_5" />
+                  <PdfLink url={PDF80} text="Rühmatöö asendus" />
+                </> 
+                } />
                 <PhysicsCourse
                 header="Insenerigraafika"
                 content={<p>Lahe ja kasulik aine</p>}/></>
