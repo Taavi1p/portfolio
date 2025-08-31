@@ -4,10 +4,10 @@
     margin-top: 50px;
     width: 90%;
     max-width: 1000px;
-     border-radius: 20px; /* Rounded edges */
-    background: rgba(255, 255, 255, 0.13); /* Semi-transparent glass */
-    backdrop-filter: blur(10px); /* Frosted glass effect */
-    border: 0.7px solid rgba(255, 255, 255, 0.22); /* Subtle glass border */
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.13);
+    backdrop-filter: blur(10px);
+    border: 0.7px solid rgba(255, 255, 255, 0.22);
     box-shadow:
         0 6px 32px rgba(0, 0, 0, 0.18), 
         0 0 0 3px rgba(255,255,255,0.08) inset,
@@ -25,7 +25,7 @@
     font-size: 2rem;
     font-weight: bold;
     color: white;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Add depth to the text */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     margin-bottom: 5px;
 }
 
@@ -33,7 +33,7 @@
     text-align: left;
     color: white;
     line-height: 1.6;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); /* Subtle text shadow */
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
     padding: 0px 20px;
 }
 
@@ -52,19 +52,21 @@
 
 .arrow {
     font-size: 1.5em;
-    color: #fff; /* Match the header text color */
+    color: #fff;
     margin-left: auto;
     margin-right: 30px;
+    margin-top: 20px;
+    transition: transform 0.8s ease;
   }
 
 
   @media (max-width: 768px) {
 
     .title {
-        font-size: 1.5rem; /* Adjust title size for smaller screens */
+        font-size: 1.5rem;
     }
     .date {
-        font-size: 1rem; /* Adjust date size for smaller screens */
+        font-size: 1rem;
     }   
     .content p,
     .content i,
