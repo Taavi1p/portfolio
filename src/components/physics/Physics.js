@@ -82,6 +82,7 @@ import PDF56 from "../../images/physics/Year_3/kvant/KT_7.pdf"
 import PDF57 from "../../images/physics/Year_3/kvant/kontrolltöö_1.pdf"
 import PDF58 from "../../images/physics/Year_3/kvant/kontrolltöö_2.jpg"
 import PDF59 from "../../images/physics/Year_3/kvant/eksam.jpg"
+import PDF84 from "../../images/physics/Year_3/kvant/õpik.pdf"
 
 //tuum../
 import PDF60 from "../../images/physics/Year_3/tuum/Alfaspektromeetria.pdf"
@@ -114,6 +115,12 @@ import PDF78 from "../../images/physics/Year_2/AM/KT_4.pdf"
 import PDF79 from "../../images/physics/Year_2/AM/KT_5.pdf"
 import PDF80 from "../../images/physics/Year_2/AM/rühmatöö_asendus.pdf"
 
+//Spektroskoopia
+
+import PDF81 from "../../images/physics/Year_3/spektroskoopia/loengukonspekt.pdf"
+import PDF82 from "../../images/physics/Year_3/spektroskoopia/loenguslaidid.pdf"
+import PDF83 from "../../images/physics/Year_3/spektroskoopia/eksami_info.png"
+
 function Physics() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -144,6 +151,14 @@ function Physics() {
               <PdfLink url={PDF72} text="stat_KT"/>
               <PdfLink url={PDF73} text="eksam"/></>
               } />
+              <PhysicsCourse
+              header="Spektroskoopia"
+              content={<><p>Huvitav aine, eriti rakendusfüüsika aspektist. Loengukonspekt on korralik. </p>
+              <PdfLink url={PDF81} text="loengukonspekt" />
+              <PdfLink url={PDF82} text="loengu slaidid" />
+              <PdfLink url={PDF83} text="eksami info" />
+              </>
+              } />
             <PhysicsCourse
               header="Kompuuterfüüsika"
               content={<><p>Lahe aine, aga mitte väga tõsine.</p>
@@ -172,6 +187,7 @@ function Physics() {
                       <PdfLink url={PDF57} text="Kontrolltöö 1" />
                       <PdfLink url={PDF58} text="Kontrolltöö 2" />
                       <PdfLink url={PDF59} text="eksam" />
+                      <PdfLink url={PDF84} text="õpik" />
                   </>  
                 }/>
                 <PhysicsCourse

@@ -1,0 +1,31 @@
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .icon {
+    margin: 0 15px;
+    color: #ffffff; /* Default icon color */
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .icon:hover {
+    color: #0073b1; /* Change color on hover */
+  }
+  
+  .facebook:hover {
+    color: #3b5998; /* Facebook color */
+  }
+  
+  .twitter:hover {
+    color: #1da1f2; /* Twitter color */
+  }
+  
+  .linkedin:hover {
+    color: #0077b5; /* LinkedIn color */
+  }
+  

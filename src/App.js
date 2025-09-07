@@ -6,7 +6,7 @@ import Math from "./components/math/Math";
 import Physics from "./components/physics/Physics";
 import Home from "./components/landing-page/Home";
 import Blog from "./components/blog/Blog";
-import Socials from "./components/Socials";
+import Socials from "./components/socials/Socials";
 import Coding from "./components/mobile-games/Coding";
 import Books from "./components/books/Books";
 import Investing from "./components/investing/Investing";

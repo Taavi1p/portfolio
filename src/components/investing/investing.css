@@ -54,6 +54,11 @@
     mix-blend-mode: lighten;
 }
 
+.stock{
+    display: flex;
+    flex-direction: row;
+}
+
   @media (max-width: 800px) {
     .investing-page {
       width: 90vw;

@@ -15,11 +15,22 @@ function Investing() {
         <div className='investing-content'>
           <div className='header'>Positions</div>
           <div className='stocks-container'>
+            <div className='stock'>
           <InvestingElement stock="URNU" />
-          <PercentageChange ticker="AAPL" buyPrice={150} />
+          <PercentageChange ticker="AAPL" buyPrice={16} />
+          </div>
+          <div className='stock'>
           <InvestingElement stock="RA7Z" />
+          <PercentageChange ticker="RA7Z" buyPrice={150} />
+          </div>
+          <div className='stock'>
           <InvestingElement stock="EXH9" />
+          <PercentageChange ticker="EXH9" buyPrice={150} />
+          </div>
+          <div className='stock'>
           <InvestingElement stock="IQQH" />
+          <PercentageChange ticker="MSFT" buyPrice={150} />
+          </div>
           </div>
         </div>
       </div>

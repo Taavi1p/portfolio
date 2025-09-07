@@ -15,18 +15,30 @@ import React, { useEffect, useState } from "react";
  *  - white if === 0
  */
 
-// Demo fetcher: simulates a live price by random walk.
-// Replace with your real API call when ready.
-async function demoFetchPrice(symbol) {
-  const key = `demo-price-${symbol}`;
-  const last = Number(sessionStorage.getItem(key)) || 100 + Math.random() * 50;
-  const move = (Math.random() - 0.5) * 2; // small random change
-  const next = Math.max(1, last + move);
-  sessionStorage.setItem(key, String(next));
-  return next;
+// Replace the demo fetcher with a real API call
+async function realFetchPrice(symbol) {
+  const apiUrl = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&apikey=JX0NNNXXI2WTOT19`;
+  const response = await fetch(apiUrl);
+  if (!response.ok) {
+    throw new Error(`Failed to fetch price for ${symbol}`);
+  }
+  const data = await response.json();
+
+  
+  // Log the raw API response
+  console.log("Raw API data:", data);
+
+  // Get the "Time Series (Daily)" object
+  const timeSeries = data["Time Series (Daily)"];
+  if (!timeSeries) throw new Error("No time series data found");
+
+  // Get the latest date (the first key)
+  const latestDate = Object.keys(timeSeries)[0];
+  const latestClose = timeSeries[latestDate]["4. close"];
+  return Number(latestClose);
 }
 
-function PercentageChange({ buyPrice, ticker, fetchPrice = demoFetchPrice, intervalMs = 5000 }) {
+function PercentageChange({ buyPrice, ticker, fetchPrice = realFetchPrice, intervalMs = 500000 }) {
   const [livePrice, setLivePrice] = useState(null);
 
   useEffect(() => {
@@ -54,13 +66,12 @@ function PercentageChange({ buyPrice, ticker, fetchPrice = demoFetchPrice, inter
   if (buyPrice == null || buyPrice === 0 || livePrice == null) return <span style={{ color: "#9ca3af" }}>…</span>;
 
   const pct = ((livePrice - buyPrice) / buyPrice) * 100;
-
   let color = "#ffffff"; // default white
   if (pct > 0) color = "#22c55e"; // green
   else if (pct < 0) color = "#ef4444"; // red
 
   return (
-    <span style={{ color }}>
+    <span style={{ color, marginTop: 'auto', marginBottom: 'auto', marginLeft: '30px', fontSize: '30px' }}>
       {pct.toFixed(2)}%
     </span>
   );
