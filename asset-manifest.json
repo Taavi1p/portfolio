@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.f93e1b65.css",
-    "main.js": "/static/js/main.e8c40f74.js",
+    "main.css": "/static/css/main.6989ebeb.css",
+    "main.js": "/static/js/main.a43638b8.js",
     "static/media/Exam 2, solution manual(2).pdf": "/static/media/Exam 2, solution manual(2).46ac1d2288fd662d2deb.pdf",
     "static/media/kt4.pdf": "/static/media/kt4.a5b671ddd48bdc6f727d.pdf",
+    "static/media/loengukonspekt.pdf": "/static/media/loengukonspekt.a39059c5a79747760db0.pdf",
+    "static/media/õpik.pdf": "/static/media/õpik.16a03c232d17fdd646fa.pdf",
     "static/media/kt2.pdf": "/static/media/kt2.142bd3d34e47f67f70d4.pdf",
     "static/media/galois.jpg": "/static/media/galois.bd8a918b7f4078f2bb0f.jpg",
     "static/media/kt3.pdf": "/static/media/kt3.81c1856bc63a21ed9546.pdf",
     "static/media/kt1.pdf": "/static/media/kt1.c23201ec505b685d3494.pdf",
     "static/media/KT_4.pdf": "/static/media/KT_4.999dd29e454326d05e4f.pdf",
     "static/media/bachelors_thesis.pdf": "/static/media/bachelors_thesis.3e294e6ff512c3d98b3c.pdf",
+    "static/media/loenguslaidid.pdf": "/static/media/loenguslaidid.1a66462c34320b79417a.pdf",
     "static/media/KT_3.pdf": "/static/media/KT_3.141cf4327000fd70508b.pdf",
     "static/media/KT_1.pdf": "/static/media/KT_1.5e5b7b3440bf3d32c248.pdf",
     "static/media/KT_6.pdf": "/static/media/KT_6.c66909f56559680410aa.pdf",
@@ -78,6 +81,7 @@
     "static/media/termo_kontrolltöö.pdf": "/static/media/termo_kontrolltöö.d71051c02261adf5a82e.pdf",
     "static/media/failing_average.png": "/static/media/failing_average.25ec4b38b9b84f5850a8.png",
     "static/media/ResitExam.pdf": "/static/media/ResitExam.1f2c07ec2ab7c07f1920.pdf",
+    "static/media/eksami_info.png": "/static/media/eksami_info.f0cd79d0f701a4ca16a8.png",
     "static/media/boggle.png": "/static/media/boggle.b7aae75e25c2b4c49c1e.png",
     "static/media/eksam.jpg": "/static/media/eksam.e1c7ed1355aa2b6e7901.jpg",
     "static/media/octocat.png": "/static/media/octocat.d334b3c0a488f1ee9c72.png",
@@ -85,11 +89,11 @@
     "static/media/spy.png": "/static/media/spy.06db92cc5ef6741e7005.png",
     "static/media/spy2.png": "/static/media/spy2.f6fce06705c3206863ad.png",
     "index.html": "/index.html",
-    "main.f93e1b65.css.map": "/static/css/main.f93e1b65.css.map",
-    "main.e8c40f74.js.map": "/static/js/main.e8c40f74.js.map"
+    "main.6989ebeb.css.map": "/static/css/main.6989ebeb.css.map",
+    "main.a43638b8.js.map": "/static/js/main.a43638b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.f93e1b65.css",
-    "static/js/main.e8c40f74.js"
+    "static/css/main.6989ebeb.css",
+    "static/js/main.a43638b8.js"
   ]
 }
