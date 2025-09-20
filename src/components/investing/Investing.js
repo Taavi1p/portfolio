@@ -17,19 +17,19 @@ function Investing() {
           <div className='stocks-container'>
             <div className='stock'>
           <InvestingElement stock="URNU" />
-          <PercentageChange ticker="AAPL" buyPrice={16} />
+          {/* <PercentageChange ticker="URNU" buyPrice={16} /> */}
           </div>
           <div className='stock'>
           <InvestingElement stock="RA7Z" />
-          <PercentageChange ticker="RA7Z" buyPrice={150} />
+          {/* <PercentageChange ticker="RA7Z" buyPrice={150} /> */}
           </div>
           <div className='stock'>
           <InvestingElement stock="EXH9" />
-          <PercentageChange ticker="EXH9" buyPrice={150} />
+          {/* <PercentageChange ticker="EXH9" buyPrice={150} /> */}
           </div>
           <div className='stock'>
           <InvestingElement stock="IQQH" />
-          <PercentageChange ticker="MSFT" buyPrice={150} />
+          {/* <PercentageChange ticker="IQQH" buyPrice={150} /> */}
           </div>
           </div>
         </div>

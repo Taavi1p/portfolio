@@ -17,26 +17,24 @@ import React, { useEffect, useState } from "react";
 
 // Replace the demo fetcher with a real API call
 async function realFetchPrice(symbol) {
-  const apiUrl = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&apikey=JX0NNNXXI2WTOT19`;
-  const response = await fetch(apiUrl);
-  if (!response.ok) {
-    throw new Error(`Failed to fetch price for ${symbol}`);
+  const API_KEY = "82f1135e39fa4c26b16ebdcdbf99a936";
+  const url = `https://api.twelvedata.com/time_series?symbol=${symbol}&interval=1day&apikey=${API_KEY}`;
+
+  try {
+    const res = await fetch(url);
+    const data = await res.json();
+
+    if (data?.values && data.values.length > 0) {
+      return parseFloat(data.values[0].close); // latest close as a number
+    } else {
+      throw new Error("No data returned");
+    }
+  } catch (err) {
+    console.error(err);
+    return null;
   }
-  const data = await response.json();
-
-  
-  // Log the raw API response
-  console.log("Raw API data:", data);
-
-  // Get the "Time Series (Daily)" object
-  const timeSeries = data["Time Series (Daily)"];
-  if (!timeSeries) throw new Error("No time series data found");
-
-  // Get the latest date (the first key)
-  const latestDate = Object.keys(timeSeries)[0];
-  const latestClose = timeSeries[latestDate]["4. close"];
-  return Number(latestClose);
 }
+
 
 function PercentageChange({ buyPrice, ticker, fetchPrice = realFetchPrice, intervalMs = 500000 }) {
   const [livePrice, setLivePrice] = useState(null);
