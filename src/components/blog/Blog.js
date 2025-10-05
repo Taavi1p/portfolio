@@ -1,7 +1,7 @@
 import React from 'react';
 import BlogPost from "./BlogPost";
-import PageWrapper from "../common/page-wrapper/PageWrapper.js";
 import styles from './blog.module.css';
+import VCPortfolio from './blogposts/VCPorfolioDistribution/VCPortfolio';
 
 function Blog() {
   React.useEffect(() => {
@@ -9,6 +9,8 @@ function Blog() {
   }, []);
   return (
       <div className={styles.blogPage}>
+      
+        <VCPortfolio />
         <BlogPost
           title="Järgmised viis aastat"
           date="August 5, 2025"
