@@ -7,7 +7,7 @@ import Physics from "./components/physics/Physics";
 import Home from "./components/landing-page/Home";
 import Blog from "./components/blog/Blog";
 import Socials from "./components/socials/Socials";
-import Coding from "./components/mobile-games/Coding";
+import VC from "./components/venture-capital/VC";
 import Books from "./components/books/Books";
 import Investing from "./components/investing/Investing";
 import Websites from "./components/websites/Websites";
@@ -25,7 +25,7 @@ function App() {
     <Route path="/math" element={<Math />} />
     <Route path="/Blog" element={<Blog />} />
     <Route path="/Socials" element={<Socials />} />
-    <Route path="/Coding" element={<Coding />} />
+    <Route path="/VC" element={<VC />} />
     <Route path="/Books" element={<Books />} />
     <Route path="/Investing" element={<Investing />} />
     <Route path="/Websites" element={<Websites />} />

@@ -5,6 +5,7 @@
     padding-left: 30px;
     border-radius: 32px; /* More rounded corners */
     max-width: 500px;
+    min-width: 400px;
     margin-bottom: 60px;
     background: rgba(255, 255, 255, 0.12); /* More transparent for liquid glass */
     backdrop-filter: blur(10px); /* Frosted glass effect */
