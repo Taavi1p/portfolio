@@ -1,0 +1,107 @@
+/* Light mode defaults (auto when user's system is light) */
+.acq-container {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 16px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  color: #111827; /* slate-900 */
+}
+
+.acq-card {
+  border: 1px solid #e5e7eb;         /* slate-200 */
+  border-radius: 16px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.06);
+}
+
+.acq-header {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #f9fafb;
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.acq-table-wrap {
+  overflow-x: auto;
+}
+
+.acq-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 14px;
+}
+
+.acq-table th {
+  text-align: left;
+  padding: 10px 16px;
+  color: #6b7280;            /* slate-500 */
+  font-weight: 700;
+  background: #ffffff;
+  position: sticky;
+  top: 0;                    /* keep headers visible when scrolling */
+}
+
+.acq-table td {
+  padding: 12px 16px;
+  border-top: 1px solid #f3f4f6;  /* slate-100 */
+  color: #111827;
+}
+
+/* subtle row striping + hover */
+.acq-table tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+.acq-table tbody tr:hover {
+  background: #f3f4f6;
+}
+
+.acq-footnote {
+  margin: 10px 16px 14px;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+/* ---------- Dark mode ---------- */
+/* Auto dark mode if the user prefers dark scheme */
+@media (prefers-color-scheme: dark) {
+  .acq-container { color: #f3f4f6; }
+  .acq-card {
+    border-color: #374151;         /* slate-700 */
+    background: #1f2937;           /* slate-800 */
+    box-shadow: 0 1px 2px rgba(0,0,0,.5);
+  }
+  .acq-header {
+    border-bottom-color: #374151;
+    background: #111827;           /* slate-900 */
+    color: #f9fafb;
+  }
+  .acq-table th {
+    color: #9ca3af;                /* slate-400 */
+    background: #1f2937;
+  }
+  .acq-table td {
+    border-top-color: #374151;
+    color: #e5e7eb;
+  }
+  .acq-table tbody tr:nth-child(even) {
+    background: #2d3748;           /* similar to your InitialTable.css alt-row */
+  }
+  .acq-table tbody tr:hover {
+    background: #374151;
+  }
+  .acq-footnote { color: #9ca3af; }
+}
+
+/* Optional: force dark mode by adding .dark to any parent */
+.dark .acq-container { color: #f3f4f6; }
+.dark .acq-card { border-color: #374151; background: #1f2937; box-shadow: 0 1px 2px rgba(0,0,0,.5); }
+.dark .acq-header { border-bottom-color: #374151; background: #111827; color: #f9fafb; }
+.dark .acq-table th { color: #9ca3af; background: #1f2937; }
+.dark .acq-table td { border-top-color: #374151; color: #e5e7eb; }
+.dark .acq-table tbody tr:nth-child(even) { background: #2d3748; }
+.dark .acq-table tbody tr:hover { background: #374151; }
+.dark .acq-footnote { color: #9ca3af; }
