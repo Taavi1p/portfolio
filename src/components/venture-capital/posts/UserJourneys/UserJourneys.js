@@ -293,7 +293,7 @@ const InvestmentMemo = () => {
             likely pivot and start a new company when this alley proves less fruitful than expected.
         </p>,
         <p>
-            <b>Conclusion:</b> I would not invest, competition too great and team will likely pivot to new project.
+            <b>Conclusion:</b> I would be cautious to invest, competition too great and team will likely pivot to new project.
         </p>,
 
       ]}

@@ -5,7 +5,7 @@
     padding-left: 30px;
     border-radius: 32px; /* More rounded corners */
     max-width: 500px;
-    min-width: 400px;
+
     margin-bottom: 60px;
     background: rgba(255, 255, 255, 0.12); /* More transparent for liquid glass */
     backdrop-filter: blur(10px); /* Frosted glass effect */
@@ -61,7 +61,9 @@
 
   @media (max-width: 768px) {
   .mobile-game-container {
-    padding: 20px;
+    width: 90%;
+    min-width: none !important;
+    padding: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
     flex-direction: column;
