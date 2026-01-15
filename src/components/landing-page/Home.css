@@ -85,12 +85,12 @@
     left: -50%;
     width: 200%;
     height: 200%;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 60%);
+    /*background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 60%);*/
     transition: transform 0.3s ease;
     transform: translateX(-100%) rotate(45deg);
   }
   
-  .nav-link:hover {
+   .nav-link:hover {
     transform: rotateX(20deg) rotateY(20deg);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
   }
@@ -181,7 +181,8 @@
     align-items: center; 
 }
 
-.nav-link:hover,
+
+ .nav-link:hover,
 .nav-link:hover::before {
     transform: none !important;
     box-shadow: none !important;

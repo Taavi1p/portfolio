@@ -12,7 +12,7 @@
     margin-bottom: 20px;
     max-height: calc(100vh - 80px);
     object-fit: contain;
-    border-radius: 20px; /* Add rounded edges */
+    border-radius: 2px; /* Add rounded edges */
   }
 
 
