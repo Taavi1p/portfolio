@@ -23,8 +23,9 @@
   @media (max-width: 768px) {
     .resume-image {
       width: 90%;
+      max-height: 100%;
     }
     .resume-page {
-      height: 100vh
+      height: 100%;
     }
   }

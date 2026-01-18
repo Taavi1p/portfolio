@@ -60,12 +60,20 @@
 }
 
   @media (max-width: 800px) {
+
     .investing-page {
       width: 90vw;
     }
+
+     .investing-content {
+      width: 90%;
+    }
+    
   .stocks-container {
-      padding: 30px;
-      padding-left: 50px;
-      padding-right: 50px;
+    width: 90%;
+    max-width: 100%;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   }

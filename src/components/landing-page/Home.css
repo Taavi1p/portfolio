@@ -108,10 +108,12 @@
     .nav-link {
       height: 140px;
       width: 300px;
-      border-radius: 5px;
+      border-radius: 0px;
+      background-color: rgb(31, 31, 31);
     }
+
     .navigation-links {
-      gap: 10px;
+      gap: 15px;
     }
    
   }
@@ -155,6 +157,10 @@
         padding: 10px;
         padding: 50px 30px;
     }
+
+    .nav-link {
+        background-color: rgb(8, 8, 8);
+    }
   
     .bounce {
         font-size: 1.5rem; /* Adjust the size of the bouncing arrow */
@@ -186,7 +192,7 @@
 .nav-link:hover::before {
     transform: none !important;
     box-shadow: none !important;
-    color: rgb(17, 17, 17) !important;
+    color: white !important;
     filter: none !important;
     color: inherit !important;
 }
