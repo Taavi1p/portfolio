@@ -120,6 +120,12 @@ import PDF80 from "../../images/physics/Year_2/AM/rühmatöö_asendus.pdf"
 import PDF81 from "../../images/physics/Year_3/spektroskoopia/loengukonspekt.pdf"
 import PDF82 from "../../images/physics/Year_3/spektroskoopia/loenguslaidid.pdf"
 import PDF83 from "../../images/physics/Year_3/spektroskoopia/eksami_info.png"
+import PDF85 from "../../images/physics/Year_3/spektroskoopia/FTIR.pdf"
+import PDF86 from "../../images/physics/Year_3/spektroskoopia/Interferomeeter.pdf"
+import PDF87 from "../../images/physics/Year_3/spektroskoopia/Raman.pdf"
+import PDF88 from "../../images/physics/Year_3/spektroskoopia/RGB.pdf"
+import PDF89 from "../../images/physics/Year_3/spektroskoopia/Spektrograaf.pdf"
+
 
 function Physics() {
   useEffect(() => {
@@ -157,6 +163,11 @@ function Physics() {
               <PdfLink url={PDF81} text="loengukonspekt" />
               <PdfLink url={PDF82} text="loengu slaidid" />
               <PdfLink url={PDF83} text="eksami info" />
+              <PdfLink url={PDF85} text="FTIR" />
+              <PdfLink url={PDF86} text="interferomeeter" />
+              <PdfLink url={PDF87} text="raman" />
+              <PdfLink url={PDF88} text="RGB" />
+              <PdfLink url={PDF89} text="spektroskoopia" />
               </>
               } />
             <PhysicsCourse
