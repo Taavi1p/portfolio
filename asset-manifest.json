@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0868c993.css",
-    "main.js": "/static/js/main.b8b90d81.js",
+    "main.js": "/static/js/main.5dbdf3c8.js",
     "static/media/Exam 2, solution manual(2).pdf": "/static/media/Exam 2, solution manual(2).46ac1d2288fd662d2deb.pdf",
     "static/media/kt4.pdf": "/static/media/kt4.a5b671ddd48bdc6f727d.pdf",
     "static/media/loengukonspekt.pdf": "/static/media/loengukonspekt.a39059c5a79747760db0.pdf",
@@ -10,8 +10,8 @@
     "static/media/galois.jpg": "/static/media/galois.bd8a918b7f4078f2bb0f.jpg",
     "static/media/kt3.pdf": "/static/media/kt3.81c1856bc63a21ed9546.pdf",
     "static/media/kt1.pdf": "/static/media/kt1.c23201ec505b685d3494.pdf",
+    "static/media/bachelors_thesis.pdf": "/static/media/bachelors_thesis.137fc534b96bb2f2123d.pdf",
     "static/media/KT_4.pdf": "/static/media/KT_4.999dd29e454326d05e4f.pdf",
-    "static/media/bachelors_thesis.pdf": "/static/media/bachelors_thesis.3e294e6ff512c3d98b3c.pdf",
     "static/media/loenguslaidid.pdf": "/static/media/loenguslaidid.1a66462c34320b79417a.pdf",
     "static/media/KT_3.pdf": "/static/media/KT_3.141cf4327000fd70508b.pdf",
     "static/media/KT_1.pdf": "/static/media/KT_1.5e5b7b3440bf3d32c248.pdf",
@@ -28,6 +28,7 @@
     "static/media/M&R_R_Resit_Rubric_2022-2023.pdf": "/static/media/M&R_R_Resit_Rubric_2022-2023.b1daea4155d01181162d.pdf",
     "static/media/kt5.pdf": "/static/media/kt5.d076548c2555d557ffcf.pdf",
     "static/media/answers_2.pdf": "/static/media/answers_2.fd7b21275272d1e7a5d6.pdf",
+    "static/media/Interferomeeter.pdf": "/static/media/Interferomeeter.1ae87e2ceb897b4ff2b3.pdf",
     "static/media/Exam 2_2021-2022.pdf": "/static/media/Exam 2_2021-2022.aaadbcf916374e112646.pdf",
     "static/media/4.1.pdf": "/static/media/4.1.61c1685f3769a37ad79e.pdf",
     "static/media/6.1.pdf": "/static/media/6.1.cd13247838fe6fe0cbdd.pdf",
@@ -35,9 +36,13 @@
     "static/media/test_3.pdf": "/static/media/test_3.f4d4bde848d45ac54e0c.pdf",
     "static/media/exam_M3.pdf": "/static/media/exam_M3.62df7b79aba3be35f27e.pdf",
     "static/media/KT_3_1.pdf": "/static/media/KT_3_1.c62c8c89f4e84e145f49.pdf",
+    "static/media/Raman.pdf": "/static/media/Raman.ab0573bf66949958d93a.pdf",
     "static/media/R1 2022-23.pdf": "/static/media/R1 2022-23.502e006520a279b2d56f.pdf",
     "static/media/resit.pdf": "/static/media/resit.f9df4d5db5a64498d221.pdf",
+    "static/media/RGB.pdf": "/static/media/RGB.1d2e1d93f9422f5c2ef9.pdf",
     "static/media/riigieksam.pdf": "/static/media/riigieksam.db0481ba0f329a7b8309.pdf",
+    "static/media/FTIR.pdf": "/static/media/FTIR.f2b4fd875b799c032b8b.pdf",
+    "static/media/Spektrograaf.pdf": "/static/media/Spektrograaf.025f1f2b3b32c4a45a6c.pdf",
     "static/media/exam_M2.pdf": "/static/media/exam_M2.9d1f0278a539b7197e6b.pdf",
     "static/media/1.2.pdf": "/static/media/1.2.6b4bac61b1e0b84ed7a4.pdf",
     "static/media/resume.pdf": "/static/media/resume.49f15ffb5b936213c057.pdf",
@@ -154,10 +159,10 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
     "main.0868c993.css.map": "/static/css/main.0868c993.css.map",
-    "main.b8b90d81.js.map": "/static/js/main.b8b90d81.js.map"
+    "main.5dbdf3c8.js.map": "/static/js/main.5dbdf3c8.js.map"
   },
   "entrypoints": [
     "static/css/main.0868c993.css",
-    "static/js/main.b8b90d81.js"
+    "static/js/main.5dbdf3c8.js"
   ]
 }
