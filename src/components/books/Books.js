@@ -13,6 +13,10 @@ function Books() {
         <div className='books-content'>
           <div className='header'>I've enjoyed</div>
           <BooksElement
+            title="The First Tycoon"
+            author="T. J. Stiles"
+          />
+          <BooksElement
             title="Black Edge"
             author="Sheelah Kolhatkar"
           />

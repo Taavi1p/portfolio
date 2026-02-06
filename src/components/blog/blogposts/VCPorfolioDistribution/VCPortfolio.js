@@ -12,7 +12,7 @@ const VCPortfolio = () => {
 return ( 
 
 <BlogPost
-          title="VC firm’s portfolio distribution"
+          title="VC Firm’s Portfolio Distribution"
           date="October 5, 2025"
           content={[
             <p key="p1">

@@ -2,6 +2,7 @@ import React from 'react';
 import BlogPost from "./BlogPost";
 import styles from './blog.module.css';
 import VCPortfolio from './blogposts/VCPorfolioDistribution/VCPortfolio';
+import SlowTakeoff from './blogposts/slow_takeoff/SlowTakeoff';
 
 function Blog() {
   React.useEffect(() => {
@@ -9,10 +10,12 @@ function Blog() {
   }, []);
   return (
       <div className={styles.blogPage}>
+        
       
+        <SlowTakeoff />
         <VCPortfolio />
         <BlogPost
-          title="Järgmised viis aastat"
+          title="Järgmised Viis Aastat"
           date="August 5, 2025"
           content={[
             <p key="p1">
@@ -92,7 +95,7 @@ function Blog() {
           ]}
         />
         <BlogPost
-          title="Optics thought experiment"
+          title="Optics Thought Experiment"
           date="April 5, 2025"
           content={[<p>Imagine a scenario where there is an electron moving back and forth and emits an photon. The photon then is absorbed by a photovoltaic that then powers
             a tractor that starts moving. Now consider a observer that is in the electrons refrence frame and thus for him the electron does not move and thus it also does
@@ -100,7 +103,7 @@ function Blog() {
           ]}
         />
         <BlogPost
-          title="Blogs that inspire me"
+          title="Blogs That Inspire Me"
           date=""
           content={[<div className={styles.blogsContainer}>
             <a href="https://vitalik.eth.limo/" target="_blank" className={styles.webisteLink}>Vitalik Buterin, </a>
