@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0868c993.css",
-    "main.js": "/static/js/main.ee6db45c.js",
+    "main.js": "/static/js/main.db97d9b3.js",
     "static/media/Exam 2, solution manual(2).pdf": "/static/media/Exam 2, solution manual(2).46ac1d2288fd662d2deb.pdf",
     "static/media/kt4.pdf": "/static/media/kt4.a5b671ddd48bdc6f727d.pdf",
     "static/media/loengukonspekt.pdf": "/static/media/loengukonspekt.a39059c5a79747760db0.pdf",
@@ -159,10 +159,10 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
     "main.0868c993.css.map": "/static/css/main.0868c993.css.map",
-    "main.ee6db45c.js.map": "/static/js/main.ee6db45c.js.map"
+    "main.db97d9b3.js.map": "/static/js/main.db97d9b3.js.map"
   },
   "entrypoints": [
     "static/css/main.0868c993.css",
-    "static/js/main.ee6db45c.js"
+    "static/js/main.db97d9b3.js"
   ]
 }
