@@ -98,7 +98,9 @@ import PDF67 from "../../images/physics/Year_3/matfüs/eksam.pdf"
 
 //bakatöö../
 import PDF68 from "../../images/physics/thesis/bachelors_thesis.pdf"
-import PDF69 from "../../images/physics/thesis/thesis_presentation.pdf"  
+import PDF69 from "../../images/physics/thesis/thesis_presentation.pdf"
+import PDF90 from "../../images/physics/thesis/thesis_translated.pdf"
+
 
 //termodünaamika../
 import PDF70 from "../../images/physics/Year_3/termo/konspekt.pdf"
@@ -140,7 +142,8 @@ function Physics() {
           content={
           <><div className='thesis-content'>
               <div className='thesis-text'>Siseelektronide seoseenergiate arvutamine pinnastruktuurides</div>
-              <PdfLink url={PDF68} text="thesis draft (est)" />
+              <PdfLink url={PDF68} text="thesis (est)" />
+              <PdfLink url={PDF90} text="thesis translated (eng)" />
               <PdfLink url={PDF69} text="thesis presentation (eng)" />
             </div>
           </>
