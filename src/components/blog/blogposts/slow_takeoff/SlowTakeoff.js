@@ -10,16 +10,15 @@ return (
           date="February 6, 2026"
           content={[
             <p key="p1">
-             There is a solid argument that superhuman AI could arrive more gradually than expected and actually be more than 25 years away. 
-             Last year I wrote a post where I emphasized that AI progress could get out of hand quickly, since then I have gathered evidence 
-             of the opposite. This standpoint comes from debunking some common misconceptions held in the AI community and is supported by recent 
-             empirical evidence.
+             There is a compelling case that superhuman AI (ASI) could arrive more gradually than expected and could actually be more than 25 
+             years away. Last year I wrote a post where I suggested that AI progress could get out of hand quickly, since then I have looked for
+              evidence of the opposite. This standpoint comes from debunking some common misconceptions and is supported by recent empirical evidence.
             </p>,
             <p key="p2">
-              First of all, why is it important to think about possible AI timelines? No matter how or when it arrives, no doubt superhuman 
-              AI will have grand impacts on the economy. So timing those impacts is crucial for making effective career decisions. Entering 
-              a field that could become irrelevant in the next decade or investing in an idea that will pay fruit only after 40 years could 
-              be costly. Eliminating this uncertainty would make for better decisionmaking all around.
+              First of all, why is it important at all to think about possible AI timelines? No matter how or when it arrives, no doubt ASI will have 
+              grand impacts on the economy. Thus timing those impacts is crucial for making effective career decisions. Entering a field that could become 
+              irrelevant in the next decade or investing in an idea that will pay fruit only after 40 years could become costly. Eliminating this 
+              uncertainty would make for better decisionmaking all around. 
             </p>,
             <p key="p3">
              Scaling up the current technology is having diminishing returns. We can’t expect continued progress only by scaling up the existing LLMs,
