@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0868c993.css",
-    "main.js": "/static/js/main.8a563227.js",
+    "main.css": "/static/css/main.6d6297a4.css",
+    "main.js": "/static/js/main.bcc4c853.js",
     "static/media/Exam 2, solution manual(2).pdf": "/static/media/Exam 2, solution manual(2).46ac1d2288fd662d2deb.pdf",
     "static/media/kt4.pdf": "/static/media/kt4.a5b671ddd48bdc6f727d.pdf",
     "static/media/loengukonspekt.pdf": "/static/media/loengukonspekt.a39059c5a79747760db0.pdf",
@@ -29,6 +29,7 @@
     "static/media/M&R_R_Resit_Rubric_2022-2023.pdf": "/static/media/M&R_R_Resit_Rubric_2022-2023.b1daea4155d01181162d.pdf",
     "static/media/kt5.pdf": "/static/media/kt5.d076548c2555d557ffcf.pdf",
     "static/media/answers_2.pdf": "/static/media/answers_2.fd7b21275272d1e7a5d6.pdf",
+    "static/media/CV.svg": "/static/media/CV.33acb77267c8e1d60ceb4fc30a41191e.svg",
     "static/media/Interferomeeter.pdf": "/static/media/Interferomeeter.1ae87e2ceb897b4ff2b3.pdf",
     "static/media/Exam 2_2021-2022.pdf": "/static/media/Exam 2_2021-2022.aaadbcf916374e112646.pdf",
     "static/media/4.1.pdf": "/static/media/4.1.61c1685f3769a37ad79e.pdf",
@@ -84,7 +85,6 @@
     "static/media/ResitExam-Solutions.pdf": "/static/media/ResitExam-Solutions.6df9ccb63fa3a0dabef4.pdf",
     "static/media/rühmatöö_asendus.pdf": "/static/media/rühmatöö_asendus.490abb22adf197f30817.pdf",
     "static/media/termo_kontrolltöö.pdf": "/static/media/termo_kontrolltöö.d71051c02261adf5a82e.pdf",
-    "static/media/resume.jpg": "/static/media/resume.34d03adbdaf65c1702ac.jpg",
     "static/media/failing_average.png": "/static/media/failing_average.25ec4b38b9b84f5850a8.png",
     "static/media/ResitExam.pdf": "/static/media/ResitExam.1f2c07ec2ab7c07f1920.pdf",
     "static/media/eksami_info.png": "/static/media/eksami_info.f0cd79d0f701a4ca16a8.png",
@@ -159,11 +159,11 @@
     "static/media/KaTeX_Size3-Regular.woff": "/static/media/KaTeX_Size3-Regular.7947224e8a9914fa332b.woff",
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
-    "main.0868c993.css.map": "/static/css/main.0868c993.css.map",
-    "main.8a563227.js.map": "/static/js/main.8a563227.js.map"
+    "main.6d6297a4.css.map": "/static/css/main.6d6297a4.css.map",
+    "main.bcc4c853.js.map": "/static/js/main.bcc4c853.js.map"
   },
   "entrypoints": [
-    "static/css/main.0868c993.css",
-    "static/js/main.8a563227.js"
+    "static/css/main.6d6297a4.css",
+    "static/js/main.bcc4c853.js"
   ]
 }
