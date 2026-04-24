@@ -31,6 +31,15 @@ function Investing() {
           <InvestingElement stock="IQQH" />
           {/* <PercentageChange ticker="IQQH" buyPrice={150} /> */}
           </div>
+          <div className='stock'>
+          <InvestingElement stock="LULU" />
+          </div>
+          <div className='stock'>
+          <InvestingElement stock="TFPM" />
+          </div>
+          <div className='stock'>
+          <InvestingElement stock="DUOL" />
+          </div>
           </div>
         </div>
       </div>

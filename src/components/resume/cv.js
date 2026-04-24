@@ -1,6 +1,6 @@
 import React from 'react';
 import './cv.css';
-import resumeImage from '../../images/resume.jpg';
+import resumeImage from '../../images/CV.svg';
 import PDF1 from '../../images/resume.pdf';
 import PdfLink from '../common/pdf-link/PdfLink.js';
 import PageWrapper from "../common/page-wrapper/PageWrapper.js";

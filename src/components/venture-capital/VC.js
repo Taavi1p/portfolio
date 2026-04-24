@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './blog.module.css';
 import VCPortfolio from './posts/VCPorfolioDistribution/VCPortfolio';
 import UserJourneys from './posts/UserJourneys/UserJourneys';
+import Tallink from "./posts/Tallink/Tallink"
 
 function Blog() {
   React.useEffect(() => {
@@ -9,7 +10,8 @@ function Blog() {
   }, []);
   return (
       <div className={styles.blogPage}>
-         <UserJourneys />
+        <Tallink/>
+        <UserJourneys />
         <VCPortfolio />
         </div>
   );
