@@ -61,8 +61,6 @@ const InvestmentMemo = () => {
             Additionally the program is conveniently integrated with other platforms and automatically outputs tickets based on the session replays for the front-end team to solve.
         </p>,
 
-        <img src={img1} alt="Graph 50" style={{ width: "80%", height: "auto", borderRadius: "10px", display: "block", margin: "auto" }} />,
-
         <p>
           <b>3. Market Opportunity</b>
         </p>,
@@ -105,8 +103,6 @@ const InvestmentMemo = () => {
             technology than Userjourneys’. As expected, at this point they all recognize the shift in
             the market and are all switching to AI powered solutions to handle data intensive tasks.
         </p>,
-
-        <img src={img3} alt="Graph 50" style={{ width: "80%", height: "auto", borderRadius: "10px", display: "block", margin: "auto" }} />,
 
         <p>
           <b>4. Product & Technology</b>
